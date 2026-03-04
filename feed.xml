@@ -12,6 +12,8 @@
       <itunes:name>CollateralGuy</itunes:name>
       <itunes:email>collateralguy@gmail.com</itunes:email>
     </itunes:owner>
+    <managingEditor>collateralguy@gmail.com (CollateralGuy)</managingEditor>
+<webMaster>collateralguy@gmail.com (CollateralGuy)</webMaster>
     <itunes:category text="Business">
       <itunes:category text="Investing"/>
     </itunes:category>
