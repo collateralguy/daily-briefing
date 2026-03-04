@@ -18,6 +18,11 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
+<image>
+  <url>https://collateralguy.github.io/daily-briefing/cover.jpg</url>
+  <title>Daily News Brief</title>
+  <link>https://collateralguy.github.io/daily-briefing/</link>
+</image>
     <item>
       <title>Sample Episode</title>
       <description>A daily briefing on tokenization and collateral markets.</description>
