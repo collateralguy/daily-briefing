@@ -6,23 +6,25 @@
     <description>A daily briefing on tokenization, collateral, and financial infrastructure news.</description>
     <language>en-us</language>
     <copyright>CollateralGuy 2026</copyright>
-    <atom:link href="https://collateralguy.github.io/daily-briefing/feed.xml" rel="self" type="application/rss+xml"/>
-    <itunes:author>CollateralGuy</itunes:author>
-    <itunes:name>CollateralGuy</itunes:name>
-    <itunes:email>collateralguy@gmail.com</itunes:email>
     <managingEditor>collateralguy@gmail.com (CollateralGuy)</managingEditor>
     <webMaster>collateralguy@gmail.com (CollateralGuy)</webMaster>
+    <atom:link href="https://collateralguy.github.io/daily-briefing/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>CollateralGuy</itunes:author>
+    <itunes:owner>
+      <itunes:name>CollateralGuy</itunes:name>
+      <itunes:email>collateralguy@gmail.com</itunes:email>
+    </itunes:owner>
     <itunes:category text="Business">
-      <itunes:category text="Investing">
+      <itunes:category text="Investing"/>
     </itunes:category>
-    <itunes:explicit>false</itunes:explicit>
+    <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
-<image>
-  <url>https://collateralguy.github.io/daily-briefing/cover.jpg</url>
-  <title>Daily News Brief</title>
-  <link>https://collateralguy.github.io/daily-briefing/</link>
-</image>
+    <image>
+      <url>https://collateralguy.github.io/daily-briefing/cover.jpg</url>
+      <title>Daily News Brief</title>
+      <link>https://collateralguy.github.io/daily-briefing/</link>
+    </image>
     <item>
       <title>Sample Episode</title>
       <author>collateralguy@gmail.com (CollateralGuy)</author>
