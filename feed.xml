@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1_0.dtd">
   <channel>
-    <title>Daily Tokenization Briefing</title>
+    <title>Daily News Brief</title>
     <link>https://collateralguy.github.io/daily-briefing/</link>
     <description>A daily briefing on tokenization, collateral, and financial infrastructure news.</description>
     <language>en-us</language>
-    <itunes:author>Daily Briefing</itunes:author>
+    <itunes:author>CollateralGuy</itunes:author>
+    <itunes:email>your@email.com</itunes:email>
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
@@ -13,7 +14,7 @@
       <title>Sample Episode</title>
       <description>This is a placeholder episode.</description>
       <pubDate>Tue, 03 Mar 2026 06:00:00 GMT</pubDate>
-      <enclosure url="https://example.com/sample.mp3" length="1000000" type="audio/mpeg"/>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/sample.mp3" length="1000000" type="audio/mpeg"/>
       <guid>sample-episode-001</guid>
     </item>
   </channel>
