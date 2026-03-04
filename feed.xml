@@ -8,12 +8,10 @@
     <copyright>CollateralGuy 2026</copyright>
     <atom:link href="https://collateralguy.github.io/daily-briefing/feed.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>CollateralGuy</itunes:author>
-    <itunes:owner>
-      <itunes:name>CollateralGuy</itunes:name>
-      <itunes:email>collateralguy@gmail.com</itunes:email>
-    </itunes:owner>
+    <itunes:name>CollateralGuy</itunes:name>
+    <itunes:email>collateralguy@gmail.com</itunes:email>
     <managingEditor>collateralguy@gmail.com (CollateralGuy)</managingEditor>
-<webMaster>collateralguy@gmail.com (CollateralGuy)</webMaster>
+    <webMaster>collateralguy@gmail.com (CollateralGuy)</webMaster>
     <item>
     <author>collateralguy@gmail.com (CollateralGuy)</author>
     </item>
