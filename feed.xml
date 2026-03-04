@@ -12,12 +12,8 @@
     <itunes:email>collateralguy@gmail.com</itunes:email>
     <managingEditor>collateralguy@gmail.com (CollateralGuy)</managingEditor>
     <webMaster>collateralguy@gmail.com (CollateralGuy)</webMaster>
-    <item>
-    <author>collateralguy@gmail.com (CollateralGuy)</author>
-    <itunes:email>collateralguy@gmail.com</itunes:email>
-    </item>
     <itunes:category text="Business">
-      <itunes:category text="Investing"/>
+      <itunes:category text="Investing">
     </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
@@ -29,6 +25,7 @@
 </image>
     <item>
       <title>Sample Episode</title>
+      <author>collateralguy@gmail.com (CollateralGuy)</author>
       <description>A daily briefing on tokenization and collateral markets.</description>
       <link>https://collateralguy.github.io/daily-briefing/</link>
       <pubDate>Wed, 04 Mar 2026 06:00:00 GMT</pubDate>
