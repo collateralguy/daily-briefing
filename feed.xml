@@ -36,7 +36,7 @@
       <guid>sample-episode-001</guid>
       <itunes:author>CollateralGuy</itunes:author>
       <itunes:duration>600</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
+      <itunes:explicit>no</itunes:explicit>
     </item>
   </channel>
 </rss>
