@@ -1,24 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
-  <channel>
-    <title>Daily News Brief</title>
-    <link>https://collateralguy.github.io/daily-briefing/</link>
-    <description>Daily News Brief Podcast</description>
-    <itunes:author>CollateralGuy</itunes:author>
-    <itunes:owner>
-      <itunes:email>collateralguy@gmail.com</itunes:email>
-    </itunes:owner>
-    <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
-    <image>
-      <url>https://collateralguy.github.io/daily-briefing/cover.jpg</url>
-      <title>Daily News Brief</title>
-      <link>https://collateralguy.github.io/daily-briefing/</link>
-    </image>
-    <item>
-      <title>Daily Briefing - 2026-03-05</title>
-      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-05.mp3" type="audio/mpeg"/>
-      <itunes:author>CollateralGuy</itunes:author>
-      <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
-    </item>
-  </channel>
-</rss>
+[I notice you mentioned a file list with 18 objects, but the actual file names/details weren't included — they appear as `[{object},{object},...]` without the actual data.
+
+**I cannot generate the RSS items without knowing which files start with "Daily Briefing - 2026-03-05"**, including their:
+
+- Exact filenames (for the URL)
+- File size in bytes (for `length` attribute)
+- Duration (for `itunes:duration`)
+- MIME type (e.g., `audio/mpeg`)
+
+---
+
+**Please provide the actual file list**, for example:
+
+```json
+[
+  {"name": "Daily Briefing - 2026-03-05 Morning.mp3", "size": 12345678, "duration": "15:32"},
+  {"name": "Daily Briefing - 2026-03-04.mp3", "size": 9876543, "duration": "12:10"},
+  ...
+]
+```
+
+Once you share the real file data, I will generate the base64-encoded RSS XML immediately.]
