@@ -1,7 +1,8 @@
-[I need to generate a podcast RSS feed XML, but I notice that the file list contains `[{object},{object},...]` placeholders rather than actual filenames. Since the instructions say "for each file whose name starts with Daily Briefing - 2026-03-05", and the objects are placeholders, I'll create a reasonable RSS feed. However, since I don't have actual filenames, I'll create the feed structure with one example item for "Daily Briefing - 2026-03-05" and note the pattern.
+[I notice you've provided placeholder `{object}` entries for the file list rather than actual filenames. Since I need to create RSS items only for files whose names start with "Daily Briefing - 2026-03-05", but I don't have the actual filenames, I'll create a representative example with one item for that date pattern, and you can replicate the structure for each actual file.
 
-Let me construct the XML and then base64 encode it:
+Here is the XML, then base64 encoded:
 
+**XML:**
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
@@ -9,10 +10,8 @@ Let me construct the XML and then base64 encode it:
     <title>Daily News Brief</title>
     <link>https://collateralguy.github.io/daily-briefing/</link>
     <description>Daily News Brief Podcast</description>
-    <language>en-us</language>
     <itunes:author>CollateralGuy</itunes:author>
     <itunes:owner>
-      <itunes:name>CollateralGuy</itunes:name>
       <itunes:email>collateralguy@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
@@ -23,10 +22,7 @@ Let me construct the XML and then base64 encode it:
     </image>
     <item>
       <title>Daily Briefing - 2026-03-05</title>
-      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-05.mp3" type="audio/mpeg" length="0"/>
-      <guid>https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-05.mp3</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <itunes:title>Daily Briefing - 2026-03-05</itunes:title>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-05.mp3" type="audio/mpeg"/>
       <itunes:author>CollateralGuy</itunes:author>
       <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
     </item>
@@ -34,7 +30,10 @@ Let me construct the XML and then base64 encode it:
 </rss>
 ```
 
-Base64 encoded:
+**Base64:**
 
 ```
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJzcyB2ZXJzaW9uPSIyLjAiIHhtbG5zOml0dW5lcz0iaHR0cDovL3d3dy5pdHVuZXMuY29tL2R0ZHMvcG9kY2FzdC0xLjAuZHRkIj4KICA8Y2hhbm5lbD4KICAgIDx0aXRsZT5EYWlseSBOZXdzIEJyaWVmPC90aXRsZT4KICAgIDxsaW5rPmh0dHBzOi8vY29sbGF0ZXJhbGd1eS5naXRodWIuaW8vZGFpbHktYnJpZWZpbmcvPC9saW5rPgogICAgPGRlc2NyaXB0aW9uPkRhaWx5IE5ld3MgQnJpZWYgUG9kY2FzdDwvZGVzY3JpcHRpb24+CiAgICA8bGFuZ3VhZ2U+ZW4tdXM8L2xhbmd1YWdlPgogICAgPGl0dW5lczphdXRob3I+Q29sbGF0ZXJhbEd1eTwvaXR1bmVzOmF1dGhvcj4KICAgIDxpdHVuZXM6b3duZXI+CiAgICAgIDxpdHVuZXM6bmFtZT5Db2xsYXRlcmFsR3V5PC9pdHVuZXM6bmFtZT4KICAgICAgPGl0dW5lczplbWFpbD5jb2xsYXRlcmFsZ3V5QGdtYWlsLmNvbTwvaXR1bmVzOmVtYWlsPgogICAgPC9pdHVuZXM6b3duZXI+CiAgICA8aXR1bmVzOmltYWdlIGhyZWY9Imh0dHBzOi8vY29sbGF0ZXJhbGd1eS5naXRodWIuaW8vZGFpbHktYnJpZWZpbmcvY292ZXIuanBnIi8+CiAgICA8aW1hZ2U+CiAgICAgIDx1cmw+aHR0cHM6Ly9jb2xsYXRlcmFsZ3V5LmdpdGh1Yi5pby9kYWlseS1icmllZmluZy9jb3Zlci5qcGc8L3VybD4KICAgICAgPHRpdGxlPkRhaWx5IE5ld3MgQnJpZWY8L3RpdGxlPgogICAgICA8bGluaz5odHRwczovL2NvbGxhdGVyYWxndXkuZ2l0aHViLmlvL2RhaWx5LWJyaWVmaW5nLzwvbGluaz4KICAgIDwvaW1hZ2U+CiAgICA8aXRlbT4KICAgICAgPHRpdGxlPkRhaWx5IEJyaWVmaW5nIC0gMjAyNi0wMy0wNTwvdGl0bGU+CiAgICAgIDxlbmNsb3N1cmUgdXJsPSJodHRwczovL2NvbGxhdGVyYWxndXkuZ2l0aHViLmlvL2RhaWx5LWJyaWVmaW5nL0RhaWx5IEJyaWVmaW5nIC0gMjAyNi0wMy0wNS5tcDMiIHR5cGU9ImF1ZGlvL21wZWciIGxlbmd0aD0iMCIvPgogICAgICA8Z3VpZD5odHRwczovL2NvbGxhdGVyYWxndXkuZ2l0aHViLmlvL2RhaWx5LWJyaWVmaW5nL0RhaWx5IEJyaWVmaW5nIC0gMjAyNi0wMy0wNS5tcDM8L2d1aWQ+CiAgICAgIDxwdWJEYXRlPlRodSwgMDUgTWFyIDIwMjYgMDA6MDA6MDAgKzAwMDA8L3B1YkRhdGU+CiAgICAgIDxpdHVuZX]
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJzcyB2ZXJzaW9uPSIyLjAiIHhtbG5zOml0dW5lcz0iaHR0cDovL3d3dy5pdHVuZXMuY29tL2R0ZHMvcG9kY2FzdC0xLjAuZHRkIj4KICA8Y2hhbm5lbD4KICAgIDx0aXRsZT5EYWlseSBOZXdzIEJyaWVmPC90aXRsZT4KICAgIDxsaW5rPmh0dHBzOi8vY29sbGF0ZXJhbGd1eS5naXRodWIuaW8vZGFpbHktYnJpZWZpbmcvPC9saW5rPgogICAgPGRlc2NyaXB0aW9uPkRhaWx5IE5ld3MgQnJpZWYgUG9kY2FzdDwvZGVzY3JpcHRpb24+CiAgICA8aXR1bmVzOmF1dGhvcj5Db2xsYXRlcmFsR3V5PC9pdHVuZXM6YXV0aG9yPgogICAgPGl0dW5lczpvd25lcj4KICAgICAgPGl0dW5lczplbWFpbD5jb2xsYXRlcmFsZ3V5QGdtYWlsLmNvbTwvaXR1bmVzOmVtYWlsPgogICAgPC9pdHVuZXM6b3duZXI+CiAgICA8aXR1bmVzOmltYWdlIGhyZWY9Imh0dHBzOi8vY29sbGF0ZXJhbGd1eS5naXRodWIuaW8vZGFpbHktYnJpZWZpbmcvY292ZXIuanBnIi8+CiAgICA8aW1hZ2U+CiAgICAgIDx1cmw+aHR0cHM6Ly9jb2xsYXRlcmFsZ3V5LmdpdGh1Yi5pby9kYWlseS1icmllZmluZy9jb3Zlci5qcGc8L3VybD4KICAgICAgPHRpdGxlPkRhaWx5IE5ld3MgQnJpZWY8L3RpdGxlPgogICAgICA8bGluaz5odHRwczovL2NvbGxhdGVyYWxndXkuZ2l0aHViLmlvL2RhaWx5LWJyaWVmaW5nLzwvbGluaz4KICAgIDwvaW1hZ2U+CiAgICA8aXRlbT4KICAgICAgPHRpdGxlPkRhaWx5IEJyaWVmaW5nIC0gMjAyNi0wMy0wNTwvdGl0bGU+CiAgICAgIDxlbmNsb3N1cmUgdXJsPSJodHRwczovL2NvbGxhdGVyYWxndXkuZ2l0aHViLmlvL2RhaWx5LWJyaWVmaW5nL0RhaWx5JTIwQnJpZWZpbmclMjAtJTIwMjAyNi0wMy0wNS5tcDMiIHR5cGU9ImF1ZGlvL21wZWciLz4KICAgICAgPGl0dW5lczphdXRob3I+Q29sbGF0ZXJhbEd1eTwvaXR1bmVzOmF1dGhvcj4KICAgICAgPGl0dW5lczppbWFnZSBocmVmPSJodHRwczovL2NvbGxhdGVyYWxndXkuZ2l0aHViLmlvL2RhaWx5LWJyaWVmaW5nL2NvdmVyLmpwZyIvPgogICAgPC9pdGVtPgogIDwvY2hhbm5lbD4KPC9yc3M+
+```
+
+Please share the actual filenames so I can generate precise items for each matching file.]
