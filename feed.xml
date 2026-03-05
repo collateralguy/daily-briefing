@@ -1,26 +1,3 @@
-[```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Daily News Brief</title>
-    <link>https://collateralguy.github.io/daily-briefing/</link>
-    <language>en-us</language>
-    <copyright>&#169; 2025 Daily News Brief</copyright>
-    <itunes:author>Daily News Brief</itunes:author>
-    <itunes:owner>
-      <itunes:name>Daily News Brief</itunes:name>
-      <itunes:email>collateralguy@gmail.com</itunes:email>
-    </itunes:owner>
-    <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
-    <image>
-      <url>https://collateralguy.github.io/daily-briefing/cover.jpg</url>
-      <title>Daily News Brief</title>
-      <link>https://collateralguy.github.io/daily-briefing/</link>
-    </image>
-    <description>Daily News Brief podcast.</description>
-    <itunes:summary>Daily News Brief podcast.</itunes:summary>
-    <itunes:category text="News"/>
-    <itunes:explicit>false</itunes:explicit>
-  </channel>
-</rss>
+[```
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJzcyB2ZXJzaW9uPSIyLjAiIHhtbG5zOml0dW5lcz0iaHR0cDovL3d3dy5pdHVuZXMuY29tL2R0ZHMvcG9kY2FzdC0xLjAuZHRkIj4KICA8Y2hhbm5lbD4KICAgIDx0aXRsZT5EYWlseSBOZXdzIEJyaWVmPC90aXRsZT4KICAgIDxsaW5rPmh0dHBzOi8vY29sbGF0ZXJhbGd1eS5naXRodWIuaW8vZGFpbHktYnJpZWZpbmcvPC9saW5rPgogICAgPGxhbmd1YWdlPmVuLXVzPC9sYW5ndWFnZT4KICAgIDxpdHVuZXM6c3VidGl0bGU+RGFpbHkgTmV3cyBCcmllZjwvaXR1bmVzOnN1YnRpdGxlPgogICAgPGl0dW5lczphdXRob3I+RGFpbHkgTmV3cyBCcmllZjwvaXR1bmVzOmF1dGhvcj4KICAgIDxpdHVuZXM6c3VtbWFyeT5EYWlseSBOZXdzIEJyaWVmPC9pdHVuZXM6c3VtbWFyeT4KICAgIDxkZXNjcmlwdGlvbj5EYWlseSBOZXdzIEJyaWVmPC9kZXNjcmlwdGlvbj4KICAgIDxpdHVuZXM6b3duZXI+CiAgICAgIDxpdHVuZXM6bmFtZT5EYWlseSBOZXdzIEJyaWVmPC9pdHVuZXM6bmFtZT4KICAgICAgPGl0dW5lczplbWFpbD5jb2xsYXRlcmFsZ3V5QGdtYWlsLmNvbTwvaXR1bmVzOmVtYWlsPgogICAgPC9pdHVuZXM6b3duZXI+CiAgICA8aXR1bmVzOmV4cGxpY2l0PmZhbHNlPC9pdHVuZXM6ZXhwbGljaXQ+CiAgICA8aXR1bmVzOmltYWdlIGhyZWY9Imh0dHBzOi8vY29sbGF0ZXJhbGd1eS5naXRodWIuaW8vZGFpbHktYnJpZWZpbmcvY292ZXIuanBnIi8+CiAgICA8aW1hZ2U+CiAgICAgIDx1cmw+aHR0cHM6Ly9jb2xsYXRlcmFsZ3V5LmdpdGh1Yi5pby9kYWlseS1icmllZmluZy9jb3Zlci5qcGc8L3VybD4KICAgICAgPHRpdGxlPkRhaWx5IE5ld3MgQnJpZWY8L3RpdGxlPgogICAgICA8bGluaz5odHRwczovL2NvbGxhdGVyYWxndXkuZ2l0aHViLmlvL2RhaWx5LWJyaWVmaW5nLzwvbGluaz4KICAgIDwvaW1hZ2U+CiAgPC9jaGFubmVsPgo8L3Jzcz4=
 ```]
