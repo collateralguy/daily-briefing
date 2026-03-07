@@ -4,53 +4,55 @@
     <title>Daily News Brief</title>
     <link>https://collateralguy.github.io/daily-briefing/</link>
     <description>Daily News Brief</description>
-    <language>en-us</language>
     <itunes:author>CollateralGuy</itunes:author>
     <itunes:owner>
       <itunes:email>collateralguy@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
-    <itunes:category text="Business"/>
-    <itunes:explicit>clean</itunes:explicit>
+    <image>
+      <url>https://collateralguy.github.io/daily-briefing/cover.jpg</url>
+      <title>Daily News Brief</title>
+      <link>https://collateralguy.github.io/daily-briefing/</link>
+    </image>
     <item>
-      <title>Daily Briefing - 2026-03-06 06-02-43</title>
-      <link>https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-02-43.mp3</link>
-      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-02-43.mp3" length="0" type="audio/mpeg"/>
-      <guid>https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-02-43.mp3</guid>
-      <pubDate>Fri, 06 Mar 2026 06:02:43 +0000</pubDate>
+      <title>Daily Briefing - 2026-03-07 06-05-31</title>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-07%2006-05-31.mp3" type="audio/mpeg" length="0"/>
+      <guid>https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-07%2006-05-31.mp3</guid>
+      <pubDate>Sat, 07 Mar 2026 06:05:31 +0000</pubDate>
       <itunes:author>CollateralGuy</itunes:author>
       <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
     </item>
     <item>
-      <title>Daily Briefing - 2026-03-06 06-03-53</title>
-      <link>https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-03-53.mp3</link>
-      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-03-53.mp3" length="0" type="audio/mpeg"/>
-      <guid>https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-03-53.mp3</guid>
-      <pubDate>Fri, 06 Mar 2026 06:03:53 +0000</pubDate>
+      <title>Daily Briefing - 2026-03-07 06-06-29</title>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-07%2006-06-29.mp3" type="audio/mpeg" length="0"/>
+      <guid>https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-07%2006-06-29.mp3</guid>
+      <pubDate>Sat, 07 Mar 2026 06:06:29 +0000</pubDate>
       <itunes:author>CollateralGuy</itunes:author>
       <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
     </item>
     <item>
-      <title>Daily Briefing - 2026-03-06 06-05-14</title>
-      <link>https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-05-14.mp3</link>
-      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-05-14.mp3" length="0" type="audio/mpeg"/>
-      <guid>https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-05-14.mp3</guid>
-      <pubDate>Fri, 06 Mar 2026 06:05:14 +0000</pubDate>
+      <title>Daily Briefing - 2026-03-07 06-07-31</title>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-07%2006-07-31.mp3" type="audio/mpeg" length="0"/>
+      <guid>https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-07%2006-07-31.mp3</guid>
+      <pubDate>Sat, 07 Mar 2026 06:07:31 +0000</pubDate>
       <itunes:author>CollateralGuy</itunes:author>
       <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
     </item>
     <item>
-      <title>Daily Briefing - 2026-03-06 06-06-58</title>
-      <link>https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-06-58.mp3</link>
-      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-06-58.mp3" length="0" type="audio/mpeg"/>
-      <guid>https://collateralguy.github.io/daily-briefing/Daily Briefing - 2026-03-06 06-06-58.mp3</guid>
-      <pubDate>Fri, 06 Mar 2026 06:06:58 +0000</pubDate>
+      <title>Daily Briefing - 2026-03-07 06-08-34</title>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-07%2006-08-34.mp3" type="audio/mpeg" length="0"/>
+      <guid>https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-07%2006-08-34.mp3</guid>
+      <pubDate>Sat, 07 Mar 2026 06:08:34 +0000</pubDate>
       <itunes:author>CollateralGuy</itunes:author>
       <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
-      <itunes:explicit>clean</itunes:explicit>
+    </item>
+    <item>
+      <title>Daily Briefing - 2026-03-07 06-09-37</title>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-07%2006-09-37.mp3" type="audio/mpeg" length="0"/>
+      <guid>https://collateralguy.github.io/daily-briefing/Daily%20Briefing%20-%202026-03-07%2006-09-37.mp3</guid>
+      <pubDate>Sat, 07 Mar 2026 06:09:37 +0000</pubDate>
+      <itunes:author>CollateralGuy</itunes:author>
+      <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
     </item>
   </channel>
 </rss>
