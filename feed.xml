@@ -1,18 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daily News Brief</title>
     <link>https://collateralguy.github.io/daily-briefing/</link>
-    <description>Daily News Brief</description>
+    <atom:link href="https://collateralguy.github.io/daily-briefing/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>A daily briefing on tokenization, collateral management, digital cash, regulation, and blockchain infrastructure in financial markets.</description>
+    <language>en-us</language>
     <itunes:author>CollateralGuy</itunes:author>
     <itunes:owner>
+      <itunes:name>CollateralGuy</itunes:name>
       <itunes:email>collateralguy@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://collateralguy.github.io/daily-briefing/cover.jpg"/>
+    <itunes:category text="Business"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
     <image>
       <url>https://collateralguy.github.io/daily-briefing/cover.jpg</url>
       <title>Daily News Brief</title>
       <link>https://collateralguy.github.io/daily-briefing/</link>
     </image>
+    <item>
+      <title>Daily News Brief — Oct 23, 2026: OCC finalizes GENIUS Act rule; JPM Coin comes to Ethereum</title>
+      <description>Week in review for October 19–23, 2026, and the first episode with the new digital cash segment. The OCC finalizes its GENIUS Act stablecoin rule with looser liquidity, reserve and yield terms; JPMorgan brings JPM Coin to Ethereum mainnet; the SEC names tokenization in its fiscal 2027 exam priorities; and sixteen issuers object to their stock trading on OKX ICE. Also: the DTC Tokenization Service details, BlackRock&#x27;s push for tokenized money funds as collateral, ESMA&#x27;s tokenised collateral call for evidence, HSBC RedCoin, SoFi&#x27;s tokenized deposit, and BLOOM&#x27;s expansion.
+
+Sources:
+SEC fiscal 2027 exam priorities — https://www.cryptotimes.io/2026/10/23/sec-includes-tokenization-in-fiscal-2027-examination-priorities/
+OCC GENIUS Act final rule (Forbes) — https://forbes.com/sites/ajdhaliwal/2026/10/23/occ-finalizes-stablecoin-rules-that-supervise-issuers-like-banks
+OCC final rule analysis — https://stablecoininsider.org/occ-genius-act-final-rule/
+JPM Coin on Ethereum — https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg
+OKX ICE objections — https://www.ledgerinsights.com/microsoft-alphabet-goldman-object-to-tokenized-stocks-traded-on-okxice-venue/
+DTCC Tokenization Service overview — https://cantonnews.org/dtcc-details-its-tokenization-service-canton-live-at-launch-25-securities-and-a-2027-roadmap
+BlackRock tokenized funds as collateral — https://crypto.news/blackrock-eyes-tokenized-funds-as-trading-collateral/
+ESMA tokenised collateral call for evidence — https://en.cryptonomist.ch/2026/10/11/tokenised-collateral-eu/
+Ant International / HSBC / BENJI — https://www.ledgerinsights.com/ant-international-uses-hsbc-tokenized-deposits-to-sweep-idle-cash-into-tokenized-benji-mmf/
+Generali tokenized MMF — https://www.ledgerinsights.com/generali-launches-tokenized-share-class-of-its-money-market-fund/
+HSBC RedCoin — https://www.pymnts.com/blockchain/2026/hsbc-launches-hong-kong-dollar-stablecoin-for-everyday-payments/
+SoFi tokenized deposit — https://www.idnfinancials.com/digital-asset/70729/sofi-launches-tokenized-deposit-with-4-4-interest
+Jack Henry / Google Cloud Universal Ledger — https://www.ledgerinsights.com/jack-henry-plans-to-support-tokenized-deposits-using-google-cloud-universal-ledger/
+MAS BLOOM — https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money
+Visa / Fireblocks — https://www.theblock.co/news/deals/2026-10-22-visa-in-talks-acquire-crypto-custody-firm-fireblocks-around-2-5-billion-axios-421926
+Lagarde at IMF — https://www.cryptotimes.io/2026/10/17/ecbs-lagarde-pushes-digital-euro-and-tokenized-settlement-at-imf/
+Navarrete non-paper — https://www.ledgerinsights.com/mep-who-led-digital-euro-legislation-issues-rallying-cry-to-scale-tokenization-across-europe/
+Franklin sgBENJI on XRPL — https://thecryptobasic.com/2026/10/23/franklin-templeton-tokenizes-u-s-treasury-fund-worth-192m-on-xrp/</description>
+      <itunes:summary>Week in review for October 19–23, 2026, and the first episode with the new digital cash segment. The OCC finalizes its GENIUS Act stablecoin rule with looser liquidity, reserve and yield terms; JPMorgan brings JPM Coin to Ethereum mainnet; the SEC names tokenization in its fiscal 2027 exam priorities; and sixteen issuers object to their stock trading on OKX ICE. Also: the DTC Tokenization Service details, BlackRock&#x27;s push for tokenized money funds as collateral, ESMA&#x27;s tokenised collateral call for evidence, HSBC RedCoin, SoFi&#x27;s tokenized deposit, and BLOOM&#x27;s expansion.
+
+Sources:
+SEC fiscal 2027 exam priorities — https://www.cryptotimes.io/2026/10/23/sec-includes-tokenization-in-fiscal-2027-examination-priorities/
+OCC GENIUS Act final rule (Forbes) — https://forbes.com/sites/ajdhaliwal/2026/10/23/occ-finalizes-stablecoin-rules-that-supervise-issuers-like-banks
+OCC final rule analysis — https://stablecoininsider.org/occ-genius-act-final-rule/
+JPM Coin on Ethereum — https://www.coindesk.com/markets/2026/10/19/jpmorgan-s-jpm-coin-representing-dollar-deposits-is-coming-to-ethereum-bloomberg
+OKX ICE objections — https://www.ledgerinsights.com/microsoft-alphabet-goldman-object-to-tokenized-stocks-traded-on-okxice-venue/
+DTCC Tokenization Service overview — https://cantonnews.org/dtcc-details-its-tokenization-service-canton-live-at-launch-25-securities-and-a-2027-roadmap
+BlackRock tokenized funds as collateral — https://crypto.news/blackrock-eyes-tokenized-funds-as-trading-collateral/
+ESMA tokenised collateral call for evidence — https://en.cryptonomist.ch/2026/10/11/tokenised-collateral-eu/
+Ant International / HSBC / BENJI — https://www.ledgerinsights.com/ant-international-uses-hsbc-tokenized-deposits-to-sweep-idle-cash-into-tokenized-benji-mmf/
+Generali tokenized MMF — https://www.ledgerinsights.com/generali-launches-tokenized-share-class-of-its-money-market-fund/
+HSBC RedCoin — https://www.pymnts.com/blockchain/2026/hsbc-launches-hong-kong-dollar-stablecoin-for-everyday-payments/
+SoFi tokenized deposit — https://www.idnfinancials.com/digital-asset/70729/sofi-launches-tokenized-deposit-with-4-4-interest
+Jack Henry / Google Cloud Universal Ledger — https://www.ledgerinsights.com/jack-henry-plans-to-support-tokenized-deposits-using-google-cloud-universal-ledger/
+MAS BLOOM — https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money
+Visa / Fireblocks — https://www.theblock.co/news/deals/2026-10-22-visa-in-talks-acquire-crypto-custody-firm-fireblocks-around-2-5-billion-axios-421926
+Lagarde at IMF — https://www.cryptotimes.io/2026/10/17/ecbs-lagarde-pushes-digital-euro-and-tokenized-settlement-at-imf/
+Navarrete non-paper — https://www.ledgerinsights.com/mep-who-led-digital-euro-legislation-issues-rallying-cry-to-scale-tokenization-across-europe/
+Franklin sgBENJI on XRPL — https://thecryptobasic.com/2026/10/23/franklin-templeton-tokenizes-u-s-treasury-fund-worth-192m-on-xrp/</itunes:summary>
+      <pubDate>Fri, 23 Oct 2026 23:13:09 -0400</pubDate>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/episodes/2026-10-23.mp3" length="16332635" type="audio/mpeg"/>
+      <guid isPermaLink="false">daily-news-brief-2026-10-23</guid>
+      <itunes:duration>00:34:01</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
