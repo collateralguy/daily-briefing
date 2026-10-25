@@ -71,7 +71,9 @@ def num_norm(ws):
 def score(asr, audio, text):
     a16 = np.interp(np.arange(0, len(audio), SR_OUT / 16000), np.arange(len(audio)), audio).astype(np.float32)
     heard = " ".join(s.text for s in asr.transcribe(a16, beam_size=1, language="en")[0])
-    r = difflib.SequenceMatcher(None, num_norm(words(text)), num_norm(words(heard)), autojunk=False).ratio()
+    # compare letters only (no spaces), so "R C H K D" == "RCHKD" and "stablecoin" == "stable coin"
+    a_s = "".join(num_norm(words(text))); b_s = "".join(num_norm(words(heard)))
+    r = difflib.SequenceMatcher(None, a_s, b_s, autojunk=False).ratio()
     return r, heard
 
 
