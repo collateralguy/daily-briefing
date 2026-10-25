@@ -33,7 +33,7 @@ def clean(text, lex):
     text = re.sub(r"[()]", ", ", text)
     for k in sorted(lex, key=len, reverse=True):
         v = lex[k]
-        text = re.sub(rf"(?<![\w-]){re.escape(k)}(?![\w-])", v, text)
+        text = re.sub(rf"(?<!\w){re.escape(k)}(?!\w)", v, text)
     text = re.sub(r"\s+,", ",", text)
     return re.sub(r"\s+", " ", text).strip()
 
