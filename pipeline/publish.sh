@@ -5,6 +5,7 @@ set -euo pipefail
 SCRIPT="$1"; NOTES="$2"; TITLE="$3"
 DATE="${4:-$(TZ=America/New_York date +%F)}"
 VOICE="$(cat pipeline/voice.txt 2>/dev/null || echo am_michael)"
+SPEED="$(cat pipeline/speed.txt 2>/dev/null || echo 1.0)"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"; cd "$ROOT"
 
 # 1. Voice engine (Kokoro) + speech checker (Whisper), installed fresh each session
@@ -18,7 +19,7 @@ done
 # 2. Audio (every chunk is checked by speech recognition; failures are regenerated)
 mkdir -p episodes
 MP3="episodes/$DATE.mp3"
-python3 pipeline/make_audio.py "$SCRIPT" "$MP3" --voice "$VOICE"
+python3 pipeline/make_audio.py "$SCRIPT" "$MP3" --voice "$VOICE" --speed "$SPEED"
 mv "episodes/$DATE.qa.txt" "/tmp/$DATE.qa.txt" 2>/dev/null || true
 
 # 3. Feed
