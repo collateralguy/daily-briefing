@@ -43,12 +43,36 @@ def spell_acronyms(text):
     return re.sub(r"(?<![\w'])([A-Z]{2,7})('s|s)?(?![\w'])", rep, text)
 
 
+STARTERS = "(?:" + "|".join("The This That These Those It Its In On At For But And Also So Yet A An We They He She I Meanwhile Separately Next Turning Finally Still However Elsewhere Overall".split()) + ")"
+
+
+def undot(text):
+    """Remove periods inside abbreviations so the voice doesn't pause after each
+    letter and the chunker doesn't treat them as sentence ends:
+    "U.S." -> "US" (then spelled "U S"), "J.P. Morgan" -> "JP Morgan", "a.m." -> "AM".
+    A period is kept only where the abbreviation ends the paragraph."""
+    text = re.sub(r"(?<!\w)e\.g\.,?", "for example,", text)
+    text = re.sub(r"(?<!\w)i\.e\.,?", "that is,", text)
+    text = re.sub(r"(?<!\w)vs\.", "versus", text)
+    for k, v in {"Mr.": "Mister", "Mrs.": "Missus", "Ms.": "Miz", "Dr.": "Doctor"}.items():
+        text = re.sub(rf"(?<!\w){re.escape(k)}(?=\s)", v, text)
+
+    def rep(m):
+        letters = m.group(1).replace(".", "").upper()
+        return letters + ("." if m.group(2) is not None else "")
+    # two or more single letters each followed by a period, e.g. U.S., U.K., J.P., a.m.
+    # Keep a sentence-ending period at the end of the paragraph or before a word
+    # that usually starts a sentence ("...in the U.S. The bill...").
+    return re.sub(r"(?<![\w.])((?:[A-Za-z]\.){2,})(\s*$|(?=\s+" + STARTERS + r"\b))?", rep, text)
+
+
 def clean(text, lex):
     text = re.sub(r"\[(.*?)\]\((.*?)\)", r"\1", text)
     text = re.sub(r"https?://\S+", "", text)
     text = re.sub(r"[*_#`>]+", "", text)
     text = text.replace("&", " and ").replace("—", ", ").replace("–", ", ")
     text = re.sub(r"[()]", ", ", text)
+    text = undot(text)
     for k in sorted(lex, key=len, reverse=True):
         v = lex[k]
         text = re.sub(rf"(?<!\w){re.escape(k)}(?!\w)", v, text)
