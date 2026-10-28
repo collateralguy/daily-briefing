@@ -25,6 +25,24 @@ def load_lexicon():
     return json.load(open(p)) if os.path.exists(p) else {}
 
 
+# All-caps words the voice should say as a word, not letter by letter.
+# Anything else in caps (USDC, RLUSD, ICBA, IPO...) is spelled out automatically,
+# because the voice otherwise guesses a word ("USDC" came out as "usdk").
+SAY_AS_WORD = {"NAV", "NASDAQ", "FINRA", "SWIFT", "NATO", "OPEC", "FOREX", "ASEAN", "ISO"}
+
+
+def spell_acronyms(text):
+    def rep(m):
+        core, tail = m.group(1), m.group(2) or ""
+        if core in SAY_AS_WORD:
+            return m.group(0)
+        if tail.lower() == "s" and core[-1] != "S":   # plural: ETFs -> E T Fs
+            return " ".join(core[:-1]) + (" " if len(core) > 1 else "") + core[-1] + "s"
+        return " ".join(core) + tail
+    # 2–7 capitals, optional plural "s" or possessive "'s"; skips mixed case like DeFi, IonQ
+    return re.sub(r"(?<![\w'])([A-Z]{2,7})('s|s)?(?![\w'])", rep, text)
+
+
 def clean(text, lex):
     text = re.sub(r"\[(.*?)\]\((.*?)\)", r"\1", text)
     text = re.sub(r"https?://\S+", "", text)
@@ -34,6 +52,7 @@ def clean(text, lex):
     for k in sorted(lex, key=len, reverse=True):
         v = lex[k]
         text = re.sub(rf"(?<!\w){re.escape(k)}(?!\w)", v, text)
+    text = spell_acronyms(text)
     text = re.sub(r"\s+,", ",", text)
     return re.sub(r"\s+", " ", text).strip()
 

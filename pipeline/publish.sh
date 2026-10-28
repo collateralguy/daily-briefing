@@ -9,8 +9,8 @@ SPEED="$(cat pipeline/speed.txt 2>/dev/null || echo 1.0)"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"; cd "$ROOT"
 
 # 1. Voice engine (Kokoro) + speech checker (Whisper), installed fresh each session
-python3 -c "import kokoro_onnx, faster_whisper, num2words" 2>/dev/null || \
-  pip install -q --break-system-packages kokoro-onnx faster-whisper num2words soundfile
+python3 -c "import kokoro_onnx, faster_whisper, num2words, wordfreq" 2>/dev/null || \
+  pip install -q --break-system-packages kokoro-onnx faster-whisper num2words soundfile wordfreq
 mkdir -p .voices
 for f in kokoro-v1.0.onnx voices-v1.0.bin; do
   [ -s ".voices/$f" ] || curl -sfL -o ".voices/$f" "https://huggingface.co/fastrtc/kokoro-onnx/resolve/main/$f"
@@ -28,7 +28,7 @@ python3 -c "import xml.dom.minidom; xml.dom.minidom.parse('feed.xml')" && echo "
 
 # 4. Publish
 git config user.email noreply@anthropic.com; git config user.name Claude
-git add -A episodes episodes.json feed.xml
+git add -A episodes episodes.json feed.xml pipeline/lexicon.json pipeline/reviewed_words.txt
 git commit -q -m "Episode $DATE" || true
 git push -q origin HEAD:main
 echo "published $MP3 (QA report: /tmp/$DATE.qa.txt)"

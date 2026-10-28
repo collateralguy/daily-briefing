@@ -67,3 +67,19 @@ and since Friday morning on Mondays (include the weekend).
 - `notes.txt` — 3–6 sentence episode description for the podcast app, followed by
   a "Sources:" list (one title and URL per line).
 - An episode title: `Daily News Brief — <Mon DD, YYYY>: <short headline of top story>`.
+
+## Pronunciation check (required, before running publish.sh)
+The voice guesses at names and jargon it doesn't know, and the listener can't
+flag errors while driving, so check pronunciation on paper before voicing:
+1. Run `python3 pipeline/pron_audit.py /home/claude/work/script.txt`. It lists only
+   words not seen before, each with the phonemes (IPA) the voice will actually say.
+2. Read every IPA line. For any word that would come out wrong (wrong stress,
+   wrong vowels, a brand or person's name said incorrectly, a ticker said as a
+   word), add an entry to `pipeline/lexicon.json` mapping the written form to a
+   respelling the voice says correctly (e.g. "Comptroller": "Controller",
+   "Aviva": "A veeva"). Look up how a company or person says their own name when unsure.
+3. Re-run the audit to confirm the respellings phonemize correctly, then run it
+   with `--mark-reviewed` so those words are skipped in future episodes.
+4. All-caps acronyms are spelled out letter by letter automatically (USDC ->
+   "U S D C"). For an acronym spoken as a word (ISDA, AFME, SOFR), add a lexicon entry.
+Commit lexicon.json and reviewed_words.txt changes with the episode.
