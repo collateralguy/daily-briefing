@@ -21,6 +21,75 @@
       <link>https://collateralguy.github.io/daily-briefing/</link>
     </image>
     <item>
+      <title>Daily News Brief — Oct 29, 2026: DTCC Tokenization Service goes live with 20 firms and 34 securities</title>
+      <description>Thursday edition covering Wednesday, October 28 through Thursday morning, October 29, 2026. DTCC switches on the DTCC Tokenization Service on Canton and its private Besu network, with twenty signed DTC participants including JP Morgan, Citi, Bank of America and Fidelity, but only thirty-four eligible securities at launch, a business-day cross-chain conversion window, no built-in cash leg yet, and BNY and Goldman absent from the list. Objections to the OKX ICE tokenized stock venue reach thirty-three, with JP Morgan, Coca-Cola and Dell opting out, as Robinhood Chain adds eight stock tokens and DeFi lending against stock tokens exposes weekend gap risk. Visa&#x27;s stablecoin settlement run rate passes $25 billion and RLUSD lands on Coinbase. Also: Circle asks the SEC to treat compliant stablecoins as cash with a zero haircut, the CFTC sets a December 15 roundtable on 24/7 trading, Hong Kong&#x27;s IFEC warns on secondary trading of tokenized funds, the Fed holds with two hawkish dissents, Google previews institutional MPC custody, Securitize adds Stellar, Pontoro launches a liquidity pool for private assets, and Chainlink brings S&amp;P vault risk assessments on chain.
+
+Sources:
+DTCC Tokenization Service Goes Live (DTCC) — https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-goes-live
+Alpaca, Citi, JP Morgan among early adopters as DTCC Tokenization Service goes live (Ledger Insights) — https://www.ledgerinsights.com/alpaca-citi-jp-morgan-among-early-adopters-as-dtcc-tokenization-service-goes-live/
+DTCC turns on its tokenized securities service for 20 clients (Unchained) — https://unchainedcrypto.com/dtcc-turns-on-its-tokenized-securities-service-for-20-clients-meeting-its-october-target/
+DTCC launches tokenization service with 20 major firms (crypto.news) — https://crypto.news/dtcc-launches-tokenization-service-with-20-major-firms/
+DTCC tokenization: 34 securities (CoinGabbar, citing The Block) — https://www.coingabbar.com/en/dtcc-tokenization-34-securities-digital-asset-trading
+DTCC tokenization service will improve balance sheet efficiency (Markets Media, background) — https://www.marketsmedia.com/dtcc-tokenization-service-will-improve-balance-sheet-efficiency/
+The DTCC Collateral AppChain: from experiment to production (DTCC, background) — https://www.dtcc.com/dtcc-connection/articles/2026/may/15/the-dtcc-collateral-appchain-from-experiment-to-production-infrastructure
+Luxembourg&#x27;s finance ministry issues €1.7bn DLT-native benchmark bond (Finadium, background) — https://finadium.com/luxembourgs-finance-ministry-issues-e1-7bn-dlt-native-benchmark-bond/
+JPMorgan, Coca-Cola, Dell also say no to OKX-ICE tokenized stock trading plan (CoinDesk) — https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan
+Robinhood Chain adds 8 stock tokens (TechFlow) — https://www.techflowpost.com/en-US/newsletter/141749
+Tokenized US stock-backed loans rise; weekend closures the biggest liquidation risk (TechFlow / The Token Dispatch) — https://www.techflowpost.com/en-US/article/34962
+Securitize plans Stellar as 17th blockchain for tokenized assets (crypto.news) — https://crypto.news/securitize-stellar-integration-tokenized-assets/
+Tokenization gave private assets rails. Pontoro is building the liquidity layer (Stellar) — https://stellar.org/press/tokenization-gave-private-assets-rails-pontoro-is-building-the-liquidity-layer
+Visa stablecoin settlement volume passes $25 billion run rate (crypto.news) — https://crypto.news/visa-stablecoin-settlement-volume-25-billion-2026
+Behind Fintech Daily, 28 October 2026 (Visa results) — https://behindfintech.substack.com/p/behind-fintech-daily-28-october-2026
+Ripple&#x27;s RLUSD launches on Coinbase (crypto.news) — https://crypto.news/ripple-rlusd-coinbase-launch-xrpl-base-ethereum/
+&#x27;We will never give up on XRP&#x27;: Ripple CEO at Swell (U.Today) — https://u.today/we-will-never-give-up-on-xrp-ripple-ceo-ends-speculations
+XRP Ledger developers propose zero-XRP wallets for stablecoin payments (CoinDesk) — https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments
+Circle submits comment letter on SEC&#x27;s proposed Regulation Crypto Assets (Circle) — https://www.circle.com/blog/circle-submits-comment-letter-on-secs-proposed-regulation-crypto-assets
+CFTC chief poses questions about policing AI; 24/7 trading roundtable Dec. 15 (CoinDesk) — https://www.coindesk.com/policy/2026/10/28/cftc-chief-poses-questions-about-policing-ai-but-calls-it-a-road-to-autonomous-trading
+CFTC to hold Dec 15 roundtable on 24/7 derivatives trading (PANews) — https://panews.io/articles/01a184ed-8ce4-707e-9f31-71e6d7b54afc
+Hong Kong IFEC flags risks of trading tokenized funds on the secondary market (PANews) — https://panews.io/articles/01a1834b-f991-70a0-90c5-735b0f785936
+Fed holds rates at 3.75%–4.00% in split October FOMC vote (Blockchain.News) — https://blockchain.news/news/fed-holds-rates-at-375-400-in-split-october-fomc-vote
+Federal Reserve implementation note, October 28, 2026 — https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a1.htm
+Stability Matters: latest news from the FSB, October 2026 (Mondo Visione) — https://mondovisione.com/media-and-resources/news/stability-matters-latest-news-from-the-fsb-october-2026-20261028
+Google to preview a new crypto security system as private-key hacks mount (CoinDesk) — https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow
+Chainlink expands collaboration with S&amp;P Global Ratings to bring vault risk assessments onchain (PR Newswire) — https://prnewswire.com/news-releases/chainlink-expands-collaboration-with-sp-global-ratings-to-bring-vault-risk-assessments-onchain-302921507.html</description>
+      <itunes:summary>Thursday edition covering Wednesday, October 28 through Thursday morning, October 29, 2026. DTCC switches on the DTCC Tokenization Service on Canton and its private Besu network, with twenty signed DTC participants including JP Morgan, Citi, Bank of America and Fidelity, but only thirty-four eligible securities at launch, a business-day cross-chain conversion window, no built-in cash leg yet, and BNY and Goldman absent from the list. Objections to the OKX ICE tokenized stock venue reach thirty-three, with JP Morgan, Coca-Cola and Dell opting out, as Robinhood Chain adds eight stock tokens and DeFi lending against stock tokens exposes weekend gap risk. Visa&#x27;s stablecoin settlement run rate passes $25 billion and RLUSD lands on Coinbase. Also: Circle asks the SEC to treat compliant stablecoins as cash with a zero haircut, the CFTC sets a December 15 roundtable on 24/7 trading, Hong Kong&#x27;s IFEC warns on secondary trading of tokenized funds, the Fed holds with two hawkish dissents, Google previews institutional MPC custody, Securitize adds Stellar, Pontoro launches a liquidity pool for private assets, and Chainlink brings S&amp;P vault risk assessments on chain.
+
+Sources:
+DTCC Tokenization Service Goes Live (DTCC) — https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-goes-live
+Alpaca, Citi, JP Morgan among early adopters as DTCC Tokenization Service goes live (Ledger Insights) — https://www.ledgerinsights.com/alpaca-citi-jp-morgan-among-early-adopters-as-dtcc-tokenization-service-goes-live/
+DTCC turns on its tokenized securities service for 20 clients (Unchained) — https://unchainedcrypto.com/dtcc-turns-on-its-tokenized-securities-service-for-20-clients-meeting-its-october-target/
+DTCC launches tokenization service with 20 major firms (crypto.news) — https://crypto.news/dtcc-launches-tokenization-service-with-20-major-firms/
+DTCC tokenization: 34 securities (CoinGabbar, citing The Block) — https://www.coingabbar.com/en/dtcc-tokenization-34-securities-digital-asset-trading
+DTCC tokenization service will improve balance sheet efficiency (Markets Media, background) — https://www.marketsmedia.com/dtcc-tokenization-service-will-improve-balance-sheet-efficiency/
+The DTCC Collateral AppChain: from experiment to production (DTCC, background) — https://www.dtcc.com/dtcc-connection/articles/2026/may/15/the-dtcc-collateral-appchain-from-experiment-to-production-infrastructure
+Luxembourg&#x27;s finance ministry issues €1.7bn DLT-native benchmark bond (Finadium, background) — https://finadium.com/luxembourgs-finance-ministry-issues-e1-7bn-dlt-native-benchmark-bond/
+JPMorgan, Coca-Cola, Dell also say no to OKX-ICE tokenized stock trading plan (CoinDesk) — https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan
+Robinhood Chain adds 8 stock tokens (TechFlow) — https://www.techflowpost.com/en-US/newsletter/141749
+Tokenized US stock-backed loans rise; weekend closures the biggest liquidation risk (TechFlow / The Token Dispatch) — https://www.techflowpost.com/en-US/article/34962
+Securitize plans Stellar as 17th blockchain for tokenized assets (crypto.news) — https://crypto.news/securitize-stellar-integration-tokenized-assets/
+Tokenization gave private assets rails. Pontoro is building the liquidity layer (Stellar) — https://stellar.org/press/tokenization-gave-private-assets-rails-pontoro-is-building-the-liquidity-layer
+Visa stablecoin settlement volume passes $25 billion run rate (crypto.news) — https://crypto.news/visa-stablecoin-settlement-volume-25-billion-2026
+Behind Fintech Daily, 28 October 2026 (Visa results) — https://behindfintech.substack.com/p/behind-fintech-daily-28-october-2026
+Ripple&#x27;s RLUSD launches on Coinbase (crypto.news) — https://crypto.news/ripple-rlusd-coinbase-launch-xrpl-base-ethereum/
+&#x27;We will never give up on XRP&#x27;: Ripple CEO at Swell (U.Today) — https://u.today/we-will-never-give-up-on-xrp-ripple-ceo-ends-speculations
+XRP Ledger developers propose zero-XRP wallets for stablecoin payments (CoinDesk) — https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments
+Circle submits comment letter on SEC&#x27;s proposed Regulation Crypto Assets (Circle) — https://www.circle.com/blog/circle-submits-comment-letter-on-secs-proposed-regulation-crypto-assets
+CFTC chief poses questions about policing AI; 24/7 trading roundtable Dec. 15 (CoinDesk) — https://www.coindesk.com/policy/2026/10/28/cftc-chief-poses-questions-about-policing-ai-but-calls-it-a-road-to-autonomous-trading
+CFTC to hold Dec 15 roundtable on 24/7 derivatives trading (PANews) — https://panews.io/articles/01a184ed-8ce4-707e-9f31-71e6d7b54afc
+Hong Kong IFEC flags risks of trading tokenized funds on the secondary market (PANews) — https://panews.io/articles/01a1834b-f991-70a0-90c5-735b0f785936
+Fed holds rates at 3.75%–4.00% in split October FOMC vote (Blockchain.News) — https://blockchain.news/news/fed-holds-rates-at-375-400-in-split-october-fomc-vote
+Federal Reserve implementation note, October 28, 2026 — https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a1.htm
+Stability Matters: latest news from the FSB, October 2026 (Mondo Visione) — https://mondovisione.com/media-and-resources/news/stability-matters-latest-news-from-the-fsb-october-2026-20261028
+Google to preview a new crypto security system as private-key hacks mount (CoinDesk) — https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow
+Chainlink expands collaboration with S&amp;P Global Ratings to bring vault risk assessments onchain (PR Newswire) — https://prnewswire.com/news-releases/chainlink-expands-collaboration-with-sp-global-ratings-to-bring-vault-risk-assessments-onchain-302921507.html</itunes:summary>
+      <pubDate>Thu, 29 Oct 2026 04:20:41 -0400</pubDate>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/episodes/2026-10-29.mp3" length="35954356" type="audio/mpeg"/>
+      <guid isPermaLink="false">daily-news-brief-2026-10-29</guid>
+      <itunes:duration>00:49:56</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Daily News Brief — Oct 28, 2026: Ripple wires RLUSD into BNY and Robinhood as Moody&#x27;s rates it A2</title>
       <description>Wednesday edition covering Tuesday, October 27 through Wednesday morning, October 28, 2026. On day one of Swell, Ripple wired RLUSD into BNY custody, with planned direct minting and redemption through the bank, and into Robinhood&#x27;s treasury and settlement operations, while Moody&#x27;s assigned RLUSD an A2 and P-1 deposit rating and flagged the remaining bankruptcy-remoteness gap. Janus Henderson and Centrifuge launched JQQQ, a Nasdaq-licensed tokenized Nasdaq-100 fund on Stellar, Ondo brought fifteen stock tokens to Robinhood Chain, and Vlad Tenev said the SEC&#x27;s innovation exemption needs durable rules behind it. In Europe, ten trade associations warned that the market integration package could shut euro stablecoins out of settlement and collateral roles, as Coinbase drops fourteen non-MiCA stablecoins on Friday. Also: Lynq and ZeroBeta put tokenized Treasuries to work as yield-bearing margin on Avalanche, Chainlink&#x27;s CustodySync with Anchorage, Bessent at Swell, Circle&#x27;s Arc passing $1 billion in USDC, Ethereum&#x27;s Glamsterdam deposit fix, and what to watch on DTCC&#x27;s tokenization service go-live.
 
