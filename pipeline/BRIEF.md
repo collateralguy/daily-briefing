@@ -62,6 +62,8 @@ and since Friday morning on Mondays (include the weekend).
 - Write for the ear: spell out numbers where it helps ("four point two billion
   dollars", "twenty twenty-six"), expand uncommon acronyms on first use, avoid
   parentheses and slashes, keep sentences moderate in length.
+  Write "twenty-four seven", not "24/7" (the voicing step also converts 24/7 and 24/5
+  automatically, so the slash is never read aloud).
 
 ## Outputs (in the working directory)
 - `script.txt` — the full script.

@@ -70,6 +70,9 @@ def clean(text, lex):
     text = re.sub(r"\[(.*?)\]\((.*?)\)", r"\1", text)
     text = re.sub(r"https?://\S+", "", text)
     text = re.sub(r"[*_#`>]+", "", text)
+    # "24/7", "24/5", "24x7" -> "twenty-four seven" (never read the slash aloud)
+    text = re.sub(r"(?<![\w/])24\s*[/x]\s*([57])(?![\w/])",
+                  lambda m: "twenty-four " + ("seven" if m.group(1) == "7" else "five"), text)
     text = text.replace("&", " and ").replace("—", ", ").replace("–", ", ")
     text = re.sub(r"[()]", ", ", text)
     text = undot(text)
