@@ -21,6 +21,77 @@
       <link>https://collateralguy.github.io/daily-briefing/</link>
     </image>
     <item>
+      <title>Daily News Brief — Oct 30, 2026: Binance loses $6.3 billion in record hack as issuers freeze stablecoins</title>
+      <description>Friday edition covering Thursday, October 29 through Friday morning, October 30, 2026. Binance says about $6.3 billion was taken from its hot wallets in the largest crypto theft on record, apparently through an EIP-7702 delegation signed via a compromised engineer&#x27;s laptop, and about $3 billion has been frozen, including more than $1.5 billion of USDT by Tether, about $823 million of USDC by Circle and about $200 million of RLUSD by Ripple, which makes it the largest live test yet of stablecoin freeze powers and DeFi circuit breakers. The Bank of England consults on supervisory expectations for CCPs accepting tokenised collateral, saying the current framework is no barrier if the collateral can be valued, transferred and realised under stress. ICE signs a definitive agreement with Trade[XYZ] to bring Hyperliquid-style perpetual futures onshore with a new retail clearing structure, and OKX ICE stock-token objections reach 38 with Walmart and Eli Lilly, while Canton-based TSV says the first trade under the SEC innovation exemption could come Monday. Also: Chainlink 24/7 pricing for tokenized assets with Aave as first adopter, the CPMI&#x27;s report on the role of central bank money, Galaxy&#x27;s OCC trust bank application, DTCC&#x27;s 2027 roadmap to Stellar and Arc, and Coinbase&#x27;s MiCA stablecoin conversion.
+
+Sources:
+Binance says customer money is safe after huge hack drains key reserve wallets (CoinDesk) — https://www.coindesk.com/business/2026/10/30/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows
+Binance freezes assets after $6.3 billion heist, crypto industry&#x27;s biggest (Reuters via Yahoo Finance) — https://finance.yahoo.com/markets/crypto/articles/tether-circle-freeze-2-38-222607515.html
+Binance says $6.3bn stolen in biggest crypto heist in history (Al Jazeera) — https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue
+Binance completes initial investigation into $6.3B hack (CoinGape) — https://coingape.com/binance-completes-initial-investigation-into-6-3b-hack-heres-what-happened
+Bitcoin price slides below $79,000 as Binance hack reports spread (Bitcoin Magazine) — https://bitcoinmagazine.com/news/bitcoin-price-slides-binance
+Binance hacker targets DeFi exit ramps; Aave and Kamino pause (Tech Insider) — https://tech-insider.org/binance-hacker-exit-ramps-aave-kamino-defi-pause-2026/
+Binance hacked: October 2026 hot wallet theft and EIP-7702 (Penligent) — https://www.penligent.ai/hackinglabs/binance-hack-october-2026/
+Bank of England sets out approach to tokenised collateral in central clearing (Bank of England) — https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing
+Bank of England to consult on tokenised collateral standards (Reuters via Global Banking &amp; Finance) — https://www.globalbankingandfinance.com/bank-england-consult-tokenised-collateral/
+FS26/1: Tokenisation in wholesale markets (FCA, background) — https://www.fca.org.uk/publications/feedback-statements/fs26-1-tokenisation-wholesale-markets
+NYSE owner teams with Trade[XYZ] to bring Hyperliquid-based perpetual futures to US (CoinDesk) — https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s
+ICE, Trade[XYZ] to bring Hyperliquid-based perpetual markets onshore in the US (FX News Group) — https://fxnewsgroup.com/forex-news/exchanges/ice-tradexyz-to-bring-hyperliquid-based-perpetual-markets-onshore-in-the-us/
+Walmart blocks its stock from OKX-ICE tokenized trading venue (Decrypt) — https://decrypt.co/382145/walmart-blocks-stock-okx-ice-tokenized-trading-venue
+Tokenized stock venue on Canton could beat OKX–ICE to first trade under SEC framework (CoinDesk) — https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework
+Inside Wall Street&#x27;s fight over tokenization (Forbes) — https://www.forbes.com/sites/digital-assets/2026/10/29/inside-wall-streets-fight-over-tokenization/
+With major banks onboard, DTCC launches tokenized securities (American Banker) — https://www.americanbanker.com/news/with-major-banks-onboard-dtcc-launches-tokenized-securities
+DTCC switches on its tokenization service with 20 firms and 34 securities (Blockhead) — https://www.blockhead.co/2026/10/29/dtcc-switches-on-its-tokenization-service-with-20-firms-and-34-securities/
+JPMorgan, Citi and Barclays are now on DTCC&#x27;s tokenization rails (24/7 Wall St.) — https://247wallst.com/investing/cryptocurrency/2026/10/29/jpmorgan-citi-and-barclays-are-now-on-dtccs-tokenization-rails-why-is-canton-cc-still-down-21-this-month/
+Chainlink launches 24/7 RWA pricing with Aave adoption (crypto.news) — https://crypto.news/chainlink-24-7-rwa-pricing-aave/
+TCB Daily Edition: What happened in crypto on October 29, 2026 (The Crypto Basic) — https://thecryptobasic.com/2026/10/29/tcb-daily-edition-what-happened-in-crypto-on-october-29-2026/
+Central banks map their role in a payments system shared with stablecoins (CryptoSlate, on CPMI report) — https://cryptoslate.com/central-banks-map-their-role-in-a-payments-system-shared-with-stablecoins
+CPMI digital innovation: The roles of central banks and central bank money in the evolving payment system (BIS) — https://www.bis.org/committees/cpmi/digital-innovation
+Galaxy applies for national trust bank charter (Galaxy press release) — https://www.newswire.ca/news-releases/galaxy-applies-for-national-trust-bank-charter-824805356.html
+Coinbase&#x27;s one-time MiCA stablecoin conversion runs Friday for EEA users (Unchained) — https://unchainedcrypto.com/coinbases-one-time-mica-stablecoin-conversion-runs-friday-for-eea-users
+Stablecoins make up $296.1 billion of $342.9 billion tokenized asset total (TokenPost) — https://www.tokenpost.com/news/investing/43791
+1kx Capital report: blockchain revenue drops 28% in 2026 (TechFlow) — https://www.techflowpost.com/en-US/article/34989
+Cardano Foundation joins CMTA (CoinMarketCal via TradingView) — https://www.tradingview.com/news/coinmarketcal:5b6258db9094b:0-cardano-foundation-joins-cmta-to-advance-tokenized-capital-market-standards-29-oct-2026/
+Crypto Brief, October 29, 2026 (Lowenstein Sandler, background) — https://www.lowenstein.com/news-insights/newsletters/crypto-brief-october-29-2026</description>
+      <itunes:summary>Friday edition covering Thursday, October 29 through Friday morning, October 30, 2026. Binance says about $6.3 billion was taken from its hot wallets in the largest crypto theft on record, apparently through an EIP-7702 delegation signed via a compromised engineer&#x27;s laptop, and about $3 billion has been frozen, including more than $1.5 billion of USDT by Tether, about $823 million of USDC by Circle and about $200 million of RLUSD by Ripple, which makes it the largest live test yet of stablecoin freeze powers and DeFi circuit breakers. The Bank of England consults on supervisory expectations for CCPs accepting tokenised collateral, saying the current framework is no barrier if the collateral can be valued, transferred and realised under stress. ICE signs a definitive agreement with Trade[XYZ] to bring Hyperliquid-style perpetual futures onshore with a new retail clearing structure, and OKX ICE stock-token objections reach 38 with Walmart and Eli Lilly, while Canton-based TSV says the first trade under the SEC innovation exemption could come Monday. Also: Chainlink 24/7 pricing for tokenized assets with Aave as first adopter, the CPMI&#x27;s report on the role of central bank money, Galaxy&#x27;s OCC trust bank application, DTCC&#x27;s 2027 roadmap to Stellar and Arc, and Coinbase&#x27;s MiCA stablecoin conversion.
+
+Sources:
+Binance says customer money is safe after huge hack drains key reserve wallets (CoinDesk) — https://www.coindesk.com/business/2026/10/30/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows
+Binance freezes assets after $6.3 billion heist, crypto industry&#x27;s biggest (Reuters via Yahoo Finance) — https://finance.yahoo.com/markets/crypto/articles/tether-circle-freeze-2-38-222607515.html
+Binance says $6.3bn stolen in biggest crypto heist in history (Al Jazeera) — https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue
+Binance completes initial investigation into $6.3B hack (CoinGape) — https://coingape.com/binance-completes-initial-investigation-into-6-3b-hack-heres-what-happened
+Bitcoin price slides below $79,000 as Binance hack reports spread (Bitcoin Magazine) — https://bitcoinmagazine.com/news/bitcoin-price-slides-binance
+Binance hacker targets DeFi exit ramps; Aave and Kamino pause (Tech Insider) — https://tech-insider.org/binance-hacker-exit-ramps-aave-kamino-defi-pause-2026/
+Binance hacked: October 2026 hot wallet theft and EIP-7702 (Penligent) — https://www.penligent.ai/hackinglabs/binance-hack-october-2026/
+Bank of England sets out approach to tokenised collateral in central clearing (Bank of England) — https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing
+Bank of England to consult on tokenised collateral standards (Reuters via Global Banking &amp; Finance) — https://www.globalbankingandfinance.com/bank-england-consult-tokenised-collateral/
+FS26/1: Tokenisation in wholesale markets (FCA, background) — https://www.fca.org.uk/publications/feedback-statements/fs26-1-tokenisation-wholesale-markets
+NYSE owner teams with Trade[XYZ] to bring Hyperliquid-based perpetual futures to US (CoinDesk) — https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s
+ICE, Trade[XYZ] to bring Hyperliquid-based perpetual markets onshore in the US (FX News Group) — https://fxnewsgroup.com/forex-news/exchanges/ice-tradexyz-to-bring-hyperliquid-based-perpetual-markets-onshore-in-the-us/
+Walmart blocks its stock from OKX-ICE tokenized trading venue (Decrypt) — https://decrypt.co/382145/walmart-blocks-stock-okx-ice-tokenized-trading-venue
+Tokenized stock venue on Canton could beat OKX–ICE to first trade under SEC framework (CoinDesk) — https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework
+Inside Wall Street&#x27;s fight over tokenization (Forbes) — https://www.forbes.com/sites/digital-assets/2026/10/29/inside-wall-streets-fight-over-tokenization/
+With major banks onboard, DTCC launches tokenized securities (American Banker) — https://www.americanbanker.com/news/with-major-banks-onboard-dtcc-launches-tokenized-securities
+DTCC switches on its tokenization service with 20 firms and 34 securities (Blockhead) — https://www.blockhead.co/2026/10/29/dtcc-switches-on-its-tokenization-service-with-20-firms-and-34-securities/
+JPMorgan, Citi and Barclays are now on DTCC&#x27;s tokenization rails (24/7 Wall St.) — https://247wallst.com/investing/cryptocurrency/2026/10/29/jpmorgan-citi-and-barclays-are-now-on-dtccs-tokenization-rails-why-is-canton-cc-still-down-21-this-month/
+Chainlink launches 24/7 RWA pricing with Aave adoption (crypto.news) — https://crypto.news/chainlink-24-7-rwa-pricing-aave/
+TCB Daily Edition: What happened in crypto on October 29, 2026 (The Crypto Basic) — https://thecryptobasic.com/2026/10/29/tcb-daily-edition-what-happened-in-crypto-on-october-29-2026/
+Central banks map their role in a payments system shared with stablecoins (CryptoSlate, on CPMI report) — https://cryptoslate.com/central-banks-map-their-role-in-a-payments-system-shared-with-stablecoins
+CPMI digital innovation: The roles of central banks and central bank money in the evolving payment system (BIS) — https://www.bis.org/committees/cpmi/digital-innovation
+Galaxy applies for national trust bank charter (Galaxy press release) — https://www.newswire.ca/news-releases/galaxy-applies-for-national-trust-bank-charter-824805356.html
+Coinbase&#x27;s one-time MiCA stablecoin conversion runs Friday for EEA users (Unchained) — https://unchainedcrypto.com/coinbases-one-time-mica-stablecoin-conversion-runs-friday-for-eea-users
+Stablecoins make up $296.1 billion of $342.9 billion tokenized asset total (TokenPost) — https://www.tokenpost.com/news/investing/43791
+1kx Capital report: blockchain revenue drops 28% in 2026 (TechFlow) — https://www.techflowpost.com/en-US/article/34989
+Cardano Foundation joins CMTA (CoinMarketCal via TradingView) — https://www.tradingview.com/news/coinmarketcal:5b6258db9094b:0-cardano-foundation-joins-cmta-to-advance-tokenized-capital-market-standards-29-oct-2026/
+Crypto Brief, October 29, 2026 (Lowenstein Sandler, background) — https://www.lowenstein.com/news-insights/newsletters/crypto-brief-october-29-2026</itunes:summary>
+      <pubDate>Fri, 30 Oct 2026 04:14:54 -0400</pubDate>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/episodes/2026-10-30.mp3" length="33436884" type="audio/mpeg"/>
+      <guid isPermaLink="false">daily-news-brief-2026-10-30</guid>
+      <itunes:duration>00:46:26</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Daily News Brief — Oct 29, 2026: DTCC Tokenization Service goes live with 20 firms and 34 securities</title>
       <description>Thursday edition covering Wednesday, October 28 through Thursday morning, October 29, 2026. DTCC switches on the DTCC Tokenization Service on Canton and its private Besu network, with twenty signed DTC participants including JP Morgan, Citi, Bank of America and Fidelity, but only thirty-four eligible securities at launch, a business-day cross-chain conversion window, no built-in cash leg yet, and BNY and Goldman absent from the list. Objections to the OKX ICE tokenized stock venue reach thirty-three, with JP Morgan, Coca-Cola and Dell opting out, as Robinhood Chain adds eight stock tokens and DeFi lending against stock tokens exposes weekend gap risk. Visa&#x27;s stablecoin settlement run rate passes $25 billion and RLUSD lands on Coinbase. Also: Circle asks the SEC to treat compliant stablecoins as cash with a zero haircut, the CFTC sets a December 15 roundtable on 24/7 trading, Hong Kong&#x27;s IFEC warns on secondary trading of tokenized funds, the Fed holds with two hawkish dissents, Google previews institutional MPC custody, Securitize adds Stellar, Pontoro launches a liquidity pool for private assets, and Chainlink brings S&amp;P vault risk assessments on chain.
 
