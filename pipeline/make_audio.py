@@ -31,14 +31,40 @@ def load_lexicon():
 SAY_AS_WORD = {"NAV", "NASDAQ", "FINRA", "SWIFT", "NATO", "OPEC", "FOREX", "ASEAN", "ISO"}
 
 
+# A lone capital "A" is read as the article "uh"; "Eigh" is read as the letter name.
+LETTER = {"A": "Eigh"}
+
+
+def spell(letters):
+    return " ".join(LETTER.get(c, c) for c in letters)
+
+
+def context_rules(text):
+    """Words whose pronunciation depends on how they are used."""
+    # "contract" as a verb (balances contract, could contract): stress the second syllable.
+    # "contractt" is a respelling the phonemizer reads as kən-TRACT.
+    modal = r"(?:to|will|would|could|can|may|might|should|must|could|began to|continue to|likely to)"
+    noun_s = r"(?!(?:futures|options|swaps|derivatives|its|his|this|these|those)\b)[a-z]+s"
+    text = re.sub(rf"(?i)\b({modal}\s+)contract\b(?!\s+(?:with|for|to|that|is|was|on)\b)", r"\1contractt", text)
+    text = re.sub(rf"\b({noun_s}\s+)contract(?=\s*(?:[.,;:]|$|\s+(?:sharply|further|again|by|as|when|while|if|and|rather)\b))", r"\1contractt", text)
+    # past-tense "read" after an auxiliary is "red"
+    text = re.sub(r"(?i)\b((?:has|have|had|was|were|been|being|is|are|be|already|widely|I've|we've|they've)\s+)read\b", r"\1red", text)
+    # "exchange": phonemizer is right, but the voice slurs the cluster; split it
+    text = re.sub(r"\b([Ee])xchang", r"\1x chang", text)
+    # rehypothecate / -ated / -ating / -ation
+    text = re.sub(r"(?i)\bre-?hypothec(ate|ated|ating|ation|ations)\b",
+                  lambda m: "ree hy pothik" + m.group(1), text)
+    return text
+
+
 def spell_acronyms(text):
     def rep(m):
         core, tail = m.group(1), m.group(2) or ""
         if core in SAY_AS_WORD:
             return m.group(0)
-        if tail.lower() == "s" and core[-1] != "S":   # plural: ETFs -> E T Fs
-            return " ".join(core[:-1]) + (" " if len(core) > 1 else "") + core[-1] + "s"
-        return " ".join(core) + tail
+        if tail.lower() == "s" and core[-1] != "S":   # plural: ETFs -> E T F's
+            return spell(core[:-1]) + (" " if len(core) > 1 else "") + spell(core[-1]) + "'s"
+        return spell(core) + tail
     # 2–7 capitals, optional plural "s" or possessive "'s"; skips mixed case like DeFi, IonQ
     return re.sub(r"(?<![\w'])([A-Z]{2,7})('s|s)?(?![\w'])", rep, text)
 
@@ -79,6 +105,7 @@ def clean(text, lex):
     for k in sorted(lex, key=len, reverse=True):
         v = lex[k]
         text = re.sub(rf"(?<!\w){re.escape(k)}(?!\w)", v, text)
+    text = context_rules(text)
     text = spell_acronyms(text)
     text = re.sub(r"\s+,", ",", text)
     return re.sub(r"\s+", " ", text).strip()

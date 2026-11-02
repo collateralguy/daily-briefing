@@ -49,6 +49,11 @@ and since Friday morning on Mondays (include the weekend).
   (SEC, DTCC, OCC) and word-like ones as words (MiCA, ESMA). Avoid spelled-out letter
   strings with dots or symbols (write "R W A dot X Y Z" style only if unavoidable).
   Write abbreviations without periods: US, UK, EU, JP Morgan, not U.S. or J.P.
+- Avoid heteronyms whose sound depends on meaning, since the voice can guess
+  wrong: don't use "read" in the past tense (say "took", "interpreted", "reviewed")
+  or as a noun ("assessment", "take"); prefer "shrink" or "fall" over "contract" as
+  a verb; likewise avoid "lead" (metal), "live" (adjective), "record"/"project"/
+  "present"/"object" as verbs where a synonym works.
 - Open: "Good morning. This is your Daily News Brief for <Weekday, Month Day>." then a
   60–90 second rundown of the top three or four stories.
 - Then each topic area in order. Put a line containing only `###` between topic
