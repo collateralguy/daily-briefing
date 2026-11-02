@@ -21,6 +21,89 @@
       <link>https://collateralguy.github.io/daily-briefing/</link>
     </image>
     <item>
+      <title>Daily News Brief — Nov 02, 2026: FBI ties Binance theft to North Korea as Binance reopens withdrawals</title>
+      <description>Weekend edition covering Friday, October 30 through Monday morning, November 2, 2026. The FBI confirms North Korea&#x27;s TraderTraitor behind the Binance theft and asks DeFi services and node operators to block more than 600 laundering addresses, as Binance replaces about 95% of the stolen assets, partly from its futures insurance fund, and reopens withdrawals in phases; Elliptic counts $6.43 billion stolen and $2.85 billion frozen, while the attacker sidestepped stablecoin freezes through a Tron lending protocol. Uber uses HSBC tokenized deposits to buy and then redeem, over a weekend, a Franklin Templeton tokenized money market fund on Canton via Tradeweb and Fireblocks, the clearest corporate demonstration yet of the 24/7 cash-and-collateral loop. Issuer objections to the OKX ICE stock-token venue reach 50, blocking 44 of 63 tickers, while Canton Strategic Holdings&#x27; issuer-sponsored tokens could trade on TSV as early as today. Also: Tether&#x27;s Q3 attestation with $7.95 billion of excess reserves, the stablecoin freeze dilemma under the GENIUS Act, CFTC Chair Selig&#x27;s voluntary exchange registration idea, Atkins in Dallas, Korea&#x27;s Digital Asset Basic Act timeline, Anchorpoint&#x27;s HKDAP on Solana, RDUSD on HashKey&#x27;s chain, the EIP-7702 attack vector and the bridge-screening stress test.
+
+Sources:
+Uber Completes Pilot of a First-Ever On-Chain Liquidity and Settlement Solution on a Public Network (Canton Network) — https://www.canton.network/canton-network-press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network
+Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (CoinDesk) — https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton
+FBI confirms North Korea&#x27;s role in $6 billion Binance hack, asks DeFi community to block addresses (CoinDesk) — https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses
+North Korean hackers launder $242 million of Binance loot via Tron as FBI presses THORChain (The Block) — https://theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257
+Binance opens crypto withdrawals in phases following $6.3 billion hack (CoinDesk) — https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack
+Binance says it&#x27;s replenished losses after a record-breaking heist (Business Insider via Yahoo Finance) — https://finance.yahoo.com/markets/crypto/articles/binance-says-replenished-losses-record-164114955.html
+Binance restores 15 networks after $6.3B hack while outflows surge (CryptoNinjas) — https://www.cryptoninjas.net/news/binance-restores-15-networks-after-6-3b-hack-while-outflows-surge-to-5-8b/
+Binance reopens USDT, USDC, ETH, BNB withdrawals as President Trump weighs in (crypto.news) — https://crypto.news/binance-restores-usdt-usdc-eth-bnb-withdrawals/
+Crypto vs. traditional banks: what Binance&#x27;s $6.3B hack reveals about vulnerability (CoinDesk) — https://www.coindesk.com/business/2026/11/02/why-crypto-exchange-hacks-can-be-harder-to-contain-versus-global-banks
+North Korea linked to $6.3 billion hack on Binance (AP via azfamily) — https://www.azfamily.com/2026/10/30/north-korea-linked-63-billion-hack-binance-blockchain-intelligence-firms-say/
+2026 Binance hack (Wikipedia, timeline) — https://en.wikipedia.org/wiki/2026_Binance_hack
+Aave market freezes draw scrutiny over claimed $60M hacker loan (crypto.news) — https://crypto.news/aave-market-freezes-binance-hacker-usdt-eth-loan
+$6B Binance heist provokes stablecoin freeze dilemma (American Banker) — https://www.americanbanker.com/news/6b-binance-heist-provokes-stablecoin-freeze-dilemma
+CFTC and US lawmaker offer two different answers to Binance&#x27;s $6.3B hack (Bitcoin.com News) — https://news.bitcoin.com/regulation-and-legal/cftc-and-us-lawmaker-offer-two-different-answers-to-binances-6-3b-hack/
+Binance hack renews US CLARITY Act debate over exchange oversight and asset-freeze powers (DigitalToday) — https://www.digitaltoday.co.kr/en/view/122504/binance-hack-renews-us-clarity-act-debate-over-exchange-oversight-asset-freeze-powers
+Nvidia, Nike, Costco and Reddit object to OKXICE tokenized stock trading (Hokanews) — https://hokanews.com/2026/11/nvidia-nike-costco-and-reddit-object-to.html
+Five of OKXICE&#x27;s eight star stocks now refuse to tokenize (Crypto News Flash) — https://www.crypto-news-flash.com/five-of-okxices-eight-star-stocks-now-refuse-to-tokenize/
+Nvidia, Nike push back: what now for OKXICE tokenized stocks? (CoinGabbar) — https://www.coingabbar.com/en/okxice-tokenized-stocks-news-today-companies-object-okb-price
+Canton Strategic Holdings moves to tokenize its own shares under the SEC&#x27;s new exemption (Unchained) — https://unchainedcrypto.com/canton-strategic-holdings-moves-to-tokenize-its-own-shares-under-the-secs-new-exemption/
+The first tokenized US stock trades on Canton on Monday (24/7 Wall St.) — https://247wallst.com/investing/cryptocurrency/2026/10/31/the-first-tokenized-u-s-stock-trades-on-canton-on-monday-what-would-have-to-happen-for-cc-to-double/
+WisdomTree third quarter 2026 results (SEC 8-K exhibit) — https://www.sec.gov/Archives/edgar/data/0000880631/000121465926013478/ex99_1.htm
+The New Capital Stack #59 (One Asset, RWA.xyz weekly snapshot) — https://oneasset.substack.com/p/the-new-capital-stack-59-dtccs-tokenization
+The Network Dispatch, 2 November 2026 — https://ausblockai.substack.com/p/the-network-dispatch-2nd-november
+Securitize to host third quarter 2026 earnings call (PR Newswire via TradingView) — https://www.tradingview.com/news/prnewswire:545061dae6adc:0-securitize-to-host-third-quarter-2026-earnings-call/
+Tether reports $1.5B Q3 profit, total reserves reach $191.5B (Bitcoin.com News) — https://news.bitcoin.com/finance/tether-reports-1-5b-q3-profit-total-reserves-reach-191-5b/
+USDC circulation falls by about 800 million tokens in seven days (TokenPost) — https://www.tokenpost.com/news/investing/45360
+Standard Chartered-backed Anchorpoint partners with Solana for HKDAP expansion (crypto.news) — https://crypto.news/standard-chartered-backed-anchorpoint-partners-with-solana-for-hkdap-expansion/
+HashKey On-Chain and RD Technologies partner on RDUSD (PR Newswire) — https://www.prnewswire.com/apac/news-releases/hashkey-on-chain-and-rd-technologies-form-deep-partnership-to-support-on-chain-testing-for-rdusd-302926017.html
+Atkins says most crypto assets are not themselves securities (TokenPost) — https://www.tokenpost.com/news/regulation/45156
+China calls for crackdown on corruption that uses crypto and blockchain (CoinDesk) — https://www.coindesk.com/markets/2026/11/02/china-s-communist-party-calls-for-a-crackdown-on-corruption-that-uses-crypto-and-blockchain
+Lee Kang-il says government to submit Digital Asset Basic Act in November (Bloomingbit) — https://en.bloomingbit.io/feed/news/123421
+TCB Daily Edition: What happened in crypto on October 30, 2026 (The Crypto Basic) — https://thecryptobasic.com/2026/10/30/tcb-daily-edition-what-happened-in-crypto-on-october-30-2026/
+TCB Daily Edition: What happened in crypto on October 31, 2026 (The Crypto Basic) — https://thecryptobasic.com/2026/10/31/tcb-daily-edition-what-happened-in-crypto-on-october-31-2026/
+Two whales sold $109 million of Hyperliquid after ICE softened its perps post (24/7 Wall St.) — https://247wallst.com/investing/cryptocurrency/2026/10/31/two-whales-sold-109-million-of-hyperliquid-after-ice-softened-its-perps-post-is-the-hype-rally-over</description>
+      <itunes:summary>Weekend edition covering Friday, October 30 through Monday morning, November 2, 2026. The FBI confirms North Korea&#x27;s TraderTraitor behind the Binance theft and asks DeFi services and node operators to block more than 600 laundering addresses, as Binance replaces about 95% of the stolen assets, partly from its futures insurance fund, and reopens withdrawals in phases; Elliptic counts $6.43 billion stolen and $2.85 billion frozen, while the attacker sidestepped stablecoin freezes through a Tron lending protocol. Uber uses HSBC tokenized deposits to buy and then redeem, over a weekend, a Franklin Templeton tokenized money market fund on Canton via Tradeweb and Fireblocks, the clearest corporate demonstration yet of the 24/7 cash-and-collateral loop. Issuer objections to the OKX ICE stock-token venue reach 50, blocking 44 of 63 tickers, while Canton Strategic Holdings&#x27; issuer-sponsored tokens could trade on TSV as early as today. Also: Tether&#x27;s Q3 attestation with $7.95 billion of excess reserves, the stablecoin freeze dilemma under the GENIUS Act, CFTC Chair Selig&#x27;s voluntary exchange registration idea, Atkins in Dallas, Korea&#x27;s Digital Asset Basic Act timeline, Anchorpoint&#x27;s HKDAP on Solana, RDUSD on HashKey&#x27;s chain, the EIP-7702 attack vector and the bridge-screening stress test.
+
+Sources:
+Uber Completes Pilot of a First-Ever On-Chain Liquidity and Settlement Solution on a Public Network (Canton Network) — https://www.canton.network/canton-network-press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network
+Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (CoinDesk) — https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton
+FBI confirms North Korea&#x27;s role in $6 billion Binance hack, asks DeFi community to block addresses (CoinDesk) — https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses
+North Korean hackers launder $242 million of Binance loot via Tron as FBI presses THORChain (The Block) — https://theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257
+Binance opens crypto withdrawals in phases following $6.3 billion hack (CoinDesk) — https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack
+Binance says it&#x27;s replenished losses after a record-breaking heist (Business Insider via Yahoo Finance) — https://finance.yahoo.com/markets/crypto/articles/binance-says-replenished-losses-record-164114955.html
+Binance restores 15 networks after $6.3B hack while outflows surge (CryptoNinjas) — https://www.cryptoninjas.net/news/binance-restores-15-networks-after-6-3b-hack-while-outflows-surge-to-5-8b/
+Binance reopens USDT, USDC, ETH, BNB withdrawals as President Trump weighs in (crypto.news) — https://crypto.news/binance-restores-usdt-usdc-eth-bnb-withdrawals/
+Crypto vs. traditional banks: what Binance&#x27;s $6.3B hack reveals about vulnerability (CoinDesk) — https://www.coindesk.com/business/2026/11/02/why-crypto-exchange-hacks-can-be-harder-to-contain-versus-global-banks
+North Korea linked to $6.3 billion hack on Binance (AP via azfamily) — https://www.azfamily.com/2026/10/30/north-korea-linked-63-billion-hack-binance-blockchain-intelligence-firms-say/
+2026 Binance hack (Wikipedia, timeline) — https://en.wikipedia.org/wiki/2026_Binance_hack
+Aave market freezes draw scrutiny over claimed $60M hacker loan (crypto.news) — https://crypto.news/aave-market-freezes-binance-hacker-usdt-eth-loan
+$6B Binance heist provokes stablecoin freeze dilemma (American Banker) — https://www.americanbanker.com/news/6b-binance-heist-provokes-stablecoin-freeze-dilemma
+CFTC and US lawmaker offer two different answers to Binance&#x27;s $6.3B hack (Bitcoin.com News) — https://news.bitcoin.com/regulation-and-legal/cftc-and-us-lawmaker-offer-two-different-answers-to-binances-6-3b-hack/
+Binance hack renews US CLARITY Act debate over exchange oversight and asset-freeze powers (DigitalToday) — https://www.digitaltoday.co.kr/en/view/122504/binance-hack-renews-us-clarity-act-debate-over-exchange-oversight-asset-freeze-powers
+Nvidia, Nike, Costco and Reddit object to OKXICE tokenized stock trading (Hokanews) — https://hokanews.com/2026/11/nvidia-nike-costco-and-reddit-object-to.html
+Five of OKXICE&#x27;s eight star stocks now refuse to tokenize (Crypto News Flash) — https://www.crypto-news-flash.com/five-of-okxices-eight-star-stocks-now-refuse-to-tokenize/
+Nvidia, Nike push back: what now for OKXICE tokenized stocks? (CoinGabbar) — https://www.coingabbar.com/en/okxice-tokenized-stocks-news-today-companies-object-okb-price
+Canton Strategic Holdings moves to tokenize its own shares under the SEC&#x27;s new exemption (Unchained) — https://unchainedcrypto.com/canton-strategic-holdings-moves-to-tokenize-its-own-shares-under-the-secs-new-exemption/
+The first tokenized US stock trades on Canton on Monday (24/7 Wall St.) — https://247wallst.com/investing/cryptocurrency/2026/10/31/the-first-tokenized-u-s-stock-trades-on-canton-on-monday-what-would-have-to-happen-for-cc-to-double/
+WisdomTree third quarter 2026 results (SEC 8-K exhibit) — https://www.sec.gov/Archives/edgar/data/0000880631/000121465926013478/ex99_1.htm
+The New Capital Stack #59 (One Asset, RWA.xyz weekly snapshot) — https://oneasset.substack.com/p/the-new-capital-stack-59-dtccs-tokenization
+The Network Dispatch, 2 November 2026 — https://ausblockai.substack.com/p/the-network-dispatch-2nd-november
+Securitize to host third quarter 2026 earnings call (PR Newswire via TradingView) — https://www.tradingview.com/news/prnewswire:545061dae6adc:0-securitize-to-host-third-quarter-2026-earnings-call/
+Tether reports $1.5B Q3 profit, total reserves reach $191.5B (Bitcoin.com News) — https://news.bitcoin.com/finance/tether-reports-1-5b-q3-profit-total-reserves-reach-191-5b/
+USDC circulation falls by about 800 million tokens in seven days (TokenPost) — https://www.tokenpost.com/news/investing/45360
+Standard Chartered-backed Anchorpoint partners with Solana for HKDAP expansion (crypto.news) — https://crypto.news/standard-chartered-backed-anchorpoint-partners-with-solana-for-hkdap-expansion/
+HashKey On-Chain and RD Technologies partner on RDUSD (PR Newswire) — https://www.prnewswire.com/apac/news-releases/hashkey-on-chain-and-rd-technologies-form-deep-partnership-to-support-on-chain-testing-for-rdusd-302926017.html
+Atkins says most crypto assets are not themselves securities (TokenPost) — https://www.tokenpost.com/news/regulation/45156
+China calls for crackdown on corruption that uses crypto and blockchain (CoinDesk) — https://www.coindesk.com/markets/2026/11/02/china-s-communist-party-calls-for-a-crackdown-on-corruption-that-uses-crypto-and-blockchain
+Lee Kang-il says government to submit Digital Asset Basic Act in November (Bloomingbit) — https://en.bloomingbit.io/feed/news/123421
+TCB Daily Edition: What happened in crypto on October 30, 2026 (The Crypto Basic) — https://thecryptobasic.com/2026/10/30/tcb-daily-edition-what-happened-in-crypto-on-october-30-2026/
+TCB Daily Edition: What happened in crypto on October 31, 2026 (The Crypto Basic) — https://thecryptobasic.com/2026/10/31/tcb-daily-edition-what-happened-in-crypto-on-october-31-2026/
+Two whales sold $109 million of Hyperliquid after ICE softened its perps post (24/7 Wall St.) — https://247wallst.com/investing/cryptocurrency/2026/10/31/two-whales-sold-109-million-of-hyperliquid-after-ice-softened-its-perps-post-is-the-hype-rally-over</itunes:summary>
+      <pubDate>Mon, 02 Nov 2026 04:44:22 -0500</pubDate>
+      <enclosure url="https://collateralguy.github.io/daily-briefing/episodes/2026-11-02.mp3" length="35740884" type="audio/mpeg"/>
+      <guid isPermaLink="false">daily-news-brief-2026-11-02</guid>
+      <itunes:duration>00:49:38</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Daily News Brief — Oct 30, 2026: Binance loses $6.3 billion in record hack as issuers freeze stablecoins</title>
       <description>Friday edition covering Thursday, October 29 through Friday morning, October 30, 2026. Binance says about $6.3 billion was taken from its hot wallets in the largest crypto theft on record, apparently through an EIP-7702 delegation signed via a compromised engineer&#x27;s laptop, and about $3 billion has been frozen, including more than $1.5 billion of USDT by Tether, about $823 million of USDC by Circle and about $200 million of RLUSD by Ripple, which makes it the largest live test yet of stablecoin freeze powers and DeFi circuit breakers. The Bank of England consults on supervisory expectations for CCPs accepting tokenised collateral, saying the current framework is no barrier if the collateral can be valued, transferred and realised under stress. ICE signs a definitive agreement with Trade[XYZ] to bring Hyperliquid-style perpetual futures onshore with a new retail clearing structure, and OKX ICE stock-token objections reach 38 with Walmart and Eli Lilly, while Canton-based TSV says the first trade under the SEC innovation exemption could come Monday. Also: Chainlink 24/7 pricing for tokenized assets with Aave as first adopter, the CPMI&#x27;s report on the role of central bank money, Galaxy&#x27;s OCC trust bank application, DTCC&#x27;s 2027 roadmap to Stellar and Arc, and Coinbase&#x27;s MiCA stablecoin conversion.
 
