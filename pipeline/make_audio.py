@@ -20,6 +20,47 @@ MAX_CHARS = 280          # chunk size: 1–3 sentences
 PASS = 0.72              # min word-match ratio vs. the script text
 
 
+IPA_TOKEN = re.compile(r"⟦([^|⟧]+)\|([^⟧]+)⟧")
+
+# Kokoro was trained on misaki-style phonemes; espeak writes some sounds differently.
+# Without this, "ch"/"j" are fed as two symbols (t+ʃ, d+ʒ) and diphthongs as pairs.
+ESPEAK_TO_MISAKI = [("tʃ", "ʧ"), ("dʒ", "ʤ"), ("eɪ", "A"), ("aɪ", "I"), ("aʊ", "W"),
+                    ("oʊ", "O"), ("ɔɪ", "Y"), ("ɚ", "əɹ"), ("ɐ", "ə"), ("ʔ", "t"),
+                    ("ɾ", "T"), ("ː", "")]
+
+
+def to_misaki(ph):
+    for a, b in ESPEAK_TO_MISAKI:
+        ph = ph.replace(a, b)
+    return ph
+
+
+def phonemes_for(tokenizer, text):
+    """Phonemize text, splicing in exact phonemes for ⟦word|ipa⟧ tokens."""
+    out, pos = [], 0
+    for mm in IPA_TOKEN.finditer(text):
+        before = text[pos:mm.start()]
+        if before.strip():
+            out.append(tokenizer.phonemize(before, "en-us"))
+        ipa, pos = mm.group(2), mm.end()
+        if text[pos:pos + 2] == "'s":                 # possessive: exchange's -> ...z
+            ipa, pos = ipa + "z", pos + 2
+        out.append(ipa)
+    rest = text[pos:]
+    if rest.strip():
+        out.append(tokenizer.phonemize(rest, "en-us"))
+    joined = ""
+    for o in (o.strip() for o in out):
+        if o:
+            joined += (o if not joined or o[0] in ".,;:!?" else " " + o)
+    return to_misaki(joined)
+
+
+def display(text):
+    """Text as heard (for the speech check and audits): ⟦word|ipa⟧ -> word."""
+    return IPA_TOKEN.sub(lambda m_: m_.group(1), text)
+
+
 def load_lexicon():
     p = os.path.join(HERE, "lexicon.json")
     return json.load(open(p)) if os.path.exists(p) else {}
@@ -49,8 +90,9 @@ def context_rules(text):
     text = re.sub(rf"\b({noun_s}\s+)contract(?=\s*(?:[.,;:]|$|\s+(?:sharply|further|again|by|as|when|while|if|and|rather)\b))", r"\1contractt", text)
     # past-tense "read" after an auxiliary is "red"
     text = re.sub(r"(?i)\b((?:has|have|had|was|were|been|being|is|are|be|already|widely|I've|we've|they've)\s+)read\b", r"\1red", text)
-    # "exchange": phonemizer is right, but the voice slurs the cluster; split it
-    text = re.sub(r"\b([Ee])xchang", r"\1x chang", text)
+    # "lives" as a verb (where the token lives) -> livz; noun only after possessives etc.
+    text = re.sub(r"(?<!\w)lives(?!\w)(?!\s+of\b)",
+                  lambda m_: m_.group(0) if re.search(r"(?i)\b(their|our|his|her|my|your|its|many|save|saves|saved|saving|lose|lost|losing|people's|human|whose|\d+|of)\s+$", text[max(0, m_.start()-20):m_.start()]) else "⟦lives|lˈɪvz⟧", text)
     # rehypothecate / -ated / -ating / -ation
     text = re.sub(r"(?i)\bre-?hypothec(ate|ated|ating|ation|ations)\b",
                   lambda m: "ree hy pothik" + m.group(1), text)
@@ -104,7 +146,9 @@ def clean(text, lex):
     text = undot(text)
     for k in sorted(lex, key=len, reverse=True):
         v = lex[k]
-        text = re.sub(rf"(?<!\w){re.escape(k)}(?!\w)", v, text)
+        if len(v) > 2 and v.startswith("/") and v.endswith("/"):
+            v = "⟦" + k + "|" + v[1:-1] + "⟧"      # exact phonemes, see synth()
+        text = re.sub(rf"(?<![\w⟦|]){re.escape(k)}(?![\w|⟧])", lambda _m, v=v: v, text)
     text = context_rules(text)
     text = spell_acronyms(text)
     text = re.sub(r"\s+,", ",", text)
@@ -145,7 +189,7 @@ def score(asr, audio, text):
     a16 = np.interp(np.arange(0, len(audio), SR_OUT / 16000), np.arange(len(audio)), audio).astype(np.float32)
     heard = " ".join(s.text for s in asr.transcribe(a16, beam_size=1, language="en")[0])
     # compare letters only (no spaces), so "R C H K D" == "RCHKD" and "stablecoin" == "stable coin"
-    a_s = "".join(num_norm(words(text))); b_s = "".join(num_norm(words(heard)))
+    a_s = "".join(num_norm(words(display(text)))); b_s = "".join(num_norm(words(heard)))
     r = difflib.SequenceMatcher(None, a_s, b_s, autojunk=False).ratio()
     return r, heard
 
@@ -176,7 +220,7 @@ def main():
             plan.append(("pause", CHUNK_PAUSE if i < len(cs) - 1 else PARA_PAUSE))
 
     def synth(t, speed):
-        audio, sr = tts.create(t, voice=a.voice, speed=speed, lang="en-us")
+        audio, sr = tts.create(phonemes_for(tts.tokenizer, t), voice=a.voice, speed=speed, is_phonemes=True)
         assert sr == SR_OUT
         return audio.astype(np.float32)
 

@@ -599,3 +599,5 @@ midterms
 Northbound
 Palo
 Alto
+Equinity
+lives

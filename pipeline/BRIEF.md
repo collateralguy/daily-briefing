@@ -104,3 +104,7 @@ flag errors while driving, so check pronunciation on paper before voicing:
 4. All-caps acronyms are spelled out letter by letter automatically (USDC ->
    "U S D C"). For an acronym spoken as a word (ISDA, AFME, SOFR), add a lexicon entry.
 Commit lexicon.json and reviewed_words.txt changes with the episode.
+
+Lexicon format: a value is either a respelling ("Izdah") or exact phonemes written
+between slashes in espeak IPA ("/ɪkstʃˈeɪndʒ/"). Use phonemes when no respelling
+sounds right; check them with the audit, which prints what the voice will say.

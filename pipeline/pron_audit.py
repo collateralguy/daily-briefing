@@ -19,7 +19,7 @@ Usage: python3 pipeline/pron_audit.py SCRIPT.txt [--all] [--mark-reviewed]
 import os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from make_audio import clean, load_lexicon
+from make_audio import clean, load_lexicon, display
 from kokoro_onnx.tokenizer import Tokenizer
 try:
     from wordfreq import zipf_frequency
@@ -36,7 +36,7 @@ def main():
     raw = open(path, encoding="utf-8").read().replace("###", "")
     raw_words = set(re.findall(r"[A-Za-z][A-Za-z0-9'.\-]*[A-Za-z0-9]", raw))
     handled = {w for w in raw_words if any(re.fullmatch(re.escape(k) + r"('s|s)?", w) for k in lex)}
-    spoken = clean(raw, lex)
+    spoken = display(clean(raw, lex))
     tok = Tokenizer()
     seen = {}
     for w in re.findall(r"[A-Za-z][A-Za-z']*[A-Za-z]", spoken):
