@@ -40,6 +40,19 @@ and since Friday morning on Mondays (include the weekend).
 - When an item involves DTCC or a direct competitor/peer of DTCC, flag it
   explicitly and give it extra analysis.
 
+## Google Alerts (Joe's inbox)
+Joe has two Google Alerts, "Tokenization" and "Collateral Management", delivered to his
+Gmail. The scheduled task reads them before the web research and saves each article's
+headline, source, snippet and real URL (the target of the google.com/url redirect) to
+`/home/claude/work/alerts.md`.
+- Treat alert items as leads, not facts: fetch and read the full article before using one,
+  and apply the same coverage window and source standard as everything else.
+- Alerts are noisy. Skip generic explainers, payment-card "tokenization" (data security),
+  AI/LLM tokenization, crypto price chatter, and press releases with no substance. Keep
+  items that are genuinely noteworthy for market infrastructure, collateral, digital cash,
+  or regulation; many will duplicate stories your own searches find, so merge them.
+- Don't flag on air that a story came from an alert; just cover it.
+
 ## Script format (it will be read aloud by a TTS voice)
 - Length is a guideline, not a target to hit. The reference standard is the
   October 23, 2026 episode (about 5,400 words, roughly 35 minutes): match that level of
