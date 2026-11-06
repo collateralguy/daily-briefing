@@ -24,7 +24,8 @@ IPA_TOKEN = re.compile(r"⟦([^|⟧]+)\|([^⟧]+)⟧")
 
 # Kokoro was trained on misaki-style phonemes; espeak writes some sounds differently.
 # Without this, "ch"/"j" are fed as two symbols (t+ʃ, d+ʒ) and diphthongs as pairs.
-ESPEAK_TO_MISAKI = [("tʃ", "ʧ"), ("dʒ", "ʤ"), ("eɪ", "A"), ("aɪ", "I"), ("aʊ", "W"),
+ESPEAK_TO_MISAKI = [("ɜːɹ", "ɜɹ"), ("ɜː", "ɜɹ"),   # "er" vowel: espeak leaves the r implied
+                    ("tʃ", "ʧ"), ("dʒ", "ʤ"), ("eɪ", "A"), ("aɪ", "I"), ("aʊ", "W"),
                     ("oʊ", "O"), ("ɔɪ", "Y"), ("ɚ", "əɹ"), ("ɐ", "ə"), ("ʔ", "t"),
                     ("ɾ", "T"), ("ː", "")]
 
