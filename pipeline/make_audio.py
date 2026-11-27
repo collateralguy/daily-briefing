@@ -94,6 +94,17 @@ def context_rules(text):
     # "lives" as a verb (where the token lives) -> livz; noun only after possessives etc.
     text = re.sub(r"(?<!\w)lives(?!\w)(?!\s+of\b)",
                   lambda m_: m_.group(0) if re.search(r"(?i)\b(their|our|his|her|my|your|its|many|save|saves|saved|saving|lose|lost|losing|people's|human|whose|\d+|of)\s+$", text[max(0, m_.start()-20):m_.start()]) else "⟦lives|lˈɪvz⟧", text)
+    # "attribute(s)" as a verb (attributes the decline to...): stress the second syllable.
+    # Noun after a determiner/adjective ("an attribute", "key attributes") or when no "to" follows.
+    def _attr(m_):
+        before = text[max(0, m_.start()-25):m_.start()]
+        after = text[m_.end():m_.end()+80]
+        noun_before = re.search(r"(?i)\b(a|an|the|this|that|these|those|its|their|his|her|our|your|key|one|each|every|other|same|common|protected|important|unique|defining|core|new|asset|data|risk)\s+$", before)
+        to_after = re.match(r"^(?:\s+\S+){0,10}?\s+to\b", after.split(".")[0] + " ")
+        if noun_before or not to_after:
+            return m_.group(0)
+        return "⟦" + m_.group(0) + "|ɐtɹˈɪbjuːt" + ("s" if m_.group(1) else "") + "⟧"
+    text = re.sub(r"(?<![\w⟦|])[Aa]ttribute(s)?(?![\w|⟧])", _attr, text)
     # rehypothecate / -ated / -ating / -ation
     text = re.sub(r"(?i)\bre-?hypothec(ate|ated|ating|ation|ations)\b",
                   lambda m: "ree hy pothik" + m.group(1), text)
